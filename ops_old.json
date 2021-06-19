@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "f4086cc6-c941-381c-bc3e-623866a53920",
+    "name": "MartinNaj",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "383c0ac3-1af8-3b7f-b4d0-f848f6a08c13",
+    "name": "Plankto",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "558386d7-441c-33fe-934c-1bbea3b2c12a",
+    "name": "Anana5",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
