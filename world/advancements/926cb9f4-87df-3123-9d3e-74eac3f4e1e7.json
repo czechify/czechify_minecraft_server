@@ -1,0 +1,18 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2021-01-22 17:17:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:mountains": "2021-01-22 17:03:45 +0100",
+      "minecraft:stone_shore": "2021-01-22 17:03:14 +0100",
+      "minecraft:savanna": "2021-01-22 17:07:14 +0100",
+      "minecraft:plains": "2021-01-22 17:00:58 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 2584
+}
