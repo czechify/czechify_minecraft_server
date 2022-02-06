@@ -1,0 +1,8 @@
+method: mysql
+
+# Only for mysql method
+host: 172.17.0.1:3306
+database: s5_czechify
+table_prefix: czechifyhomes_
+username: u5_ZpRkeBESvr
+password: 'yhPDdoa2FU9ru08uk=D.Ct!X'

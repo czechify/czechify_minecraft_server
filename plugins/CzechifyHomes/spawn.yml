@@ -1,0 +1,11 @@
+# 
+# The spawn location
+# Can be edited manually or wit /setspawn command
+spawn-module: true
+loc:
+  world: world
+  x: 256.53135575355344
+  y: 68.0
+  z: 26.670506563086498
+  yaw: -0.30003235
+  pitch: 3.1501458
