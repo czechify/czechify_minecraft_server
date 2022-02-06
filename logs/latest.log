@@ -1,1476 +1,360 @@
-[14:22:43] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:22:44] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[14:22:46] [Worker-Main-2/INFO]: Loaded 7 recipes
-[14:22:50] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[14:22:50] [Server thread/INFO]: Loading properties
-[14:22:50] [Server thread/INFO]: This server is running Paper version git-Paper-394 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
-[14:22:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:22:50] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:22:50] [Server thread/INFO]: Debug logging is disabled
-[14:22:50] [Server thread/INFO]: Default game type: SURVIVAL
-[14:22:50] [Server thread/INFO]: Generating keypair
-[14:22:51] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:22:51] [Server thread/INFO]: Using default channel type
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Injector platform set to: InjectorBukkit
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Injecting NMS classes...
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Injecting WorldEdit classes...
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.util.eventbus.EventBus
-[14:22:53] [Server thread/WARN]: [WorldEdit] Loaded class org.primesoft.asyncworldedit.injector.injected.util.eventbus.IDispatchableEventBus from AsyncWorldEdit v3.8.0 which is not a depend, softdepend or loadbefore of this plugin.
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.math.BlockVector2
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.math.BlockVector3
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.math.Vector2
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.math.Vector3
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.block.BlockStateHolder
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.block.BaseBlock
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.block.BlockState
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.entity.BaseEntity
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.util.Location
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.biome.BiomeType
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.world.weather.WeatherType
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.EditSession
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.AbstractDelegateExtent
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.operation.Operations
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extension.platform.PlayerProxy
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.util.collection.LocatedBlockList
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.reorder.MultiStageReorder
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.reorder.ChunkBatchingExtent
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.AbstractRegion
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.EllipsoidRegion
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.ConvexPolyhedralRegion
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.TransformRegion
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.RegionIntersection
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.NullRegion
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.Polygonal2DRegion
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.CylinderRegion
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.CuboidRegion
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.SnapshotUtilCommands
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.ScriptingCommands
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.SchematicCommands
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.RegionCommands
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.UtilityCommandsRegistration
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.bukkit.BukkitEntity
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.RegionCommandsRegistration
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.mask.AbstractExtentMask
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.LocalSession
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.session.SessionManager
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.ChangeSetExtent
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.extent.world.ChunkLoadingExtent
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.tool.BrushTool
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.tool.BlockReplacer
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.tool.FloodFillTool
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.tool.TreePlanter
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.tool.AreaPickaxe
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.command.tool.RecursivePickaxe
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.WorldEdit
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.EditSessionBuilder
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.entity.ExtentEntityCopy
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.block.ExtentBlockCopy
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.block.BlockReplace
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.operation.ForwardExtentCopy
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.operation.SetLocatedBlocks
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.biome.BiomeReplace
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.biome.ExtentBiomeCopy
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.factory.Deform$DeformOperation
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.factory.Paint
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.mask.BiomeMask2D
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.pattern.AbstractExtentPattern
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.iterator.RegionIterator
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.regions.shape.ArbitraryShape
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.factory.Apply
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Modify class com.sk89q.worldedit.function.visitor.RegionVisitor
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/entity/PlayerWrapper
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/entity/NoPermsPlayer
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/worldedit/extension/platform/NoPermsActor
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/injector/injected/entity/IPlayerFactory
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Creating class org/primesoft/asyncworldedit/injector/injected/extension/platform/IActorFactory
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] Injector Enabled
-[14:22:53] [Server thread/INFO]: [AsyncWorldEdit] New class factory set to: org.primesoft.asyncworldedit.asyncinjector.async.AsyncClassFactory
-[14:22:53] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[14:23:16] [Server thread/WARN]: Legacy plugin LoginSecurity v3.0.2 does not specify an api-version.
-[14:23:16] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.2.76
-[14:23:16] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.1+299386a
-[14:23:18] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@188527f]
-[14:23:18] [Server thread/INFO]: [EntityTrackerFixer] Loading EntityTrackerFixer v1.3.3
-[14:23:18] [Server thread/INFO]: [AsyncWorldEdit] Loading AsyncWorldEdit v3.8.0
-[14:23:18] [Server thread/INFO]: [AsyncWorldEdit] Plugin installed
-[14:23:18] [Server thread/INFO]: [CzechifyInfo] Loading CzechifyInfo v1.0
-[14:23:18] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.0.2
-[14:23:18] [Server thread/INFO]: [LPC] Loading LPC v3.1.1
-[14:23:18] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.4+f7ff984
-[14:23:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:23:18] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.2.76
-[14:23:18] [Server thread/INFO]:         __    
-[14:23:18] [Server thread/INFO]:   |    |__)   LuckPerms v5.2.76
-[14:23:18] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[14:23:18] [Server thread/INFO]: 
-[14:23:18] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[14:23:24] [Server thread/INFO]: [LuckPerms] Loading storage provider... [MYSQL]
-[14:23:24] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Starting...
-[14:23:24] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Start completed.
-[14:23:28] [Server thread/INFO]: [LuckPerms] Loading messaging service... [SQL]
-[14:23:29] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[14:23:29] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[14:23:30] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 12869ms)
-[14:23:30] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.1+299386a
-[14:23:31] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[14:23:31] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
-[14:23:34] [Server thread/INFO]: [AsyncWorldEdit] Enabling AsyncWorldEdit v3.8.0
-[14:23:34] [Server thread/INFO]: [AsyncWorldEdit] Platform set to Bukkit API
-[14:23:34] [Server thread/INFO]: [AsyncWorldEdit] ===================================================================================
-[14:23:34] [Server thread/INFO]: [AsyncWorldEdit] =     ___                         _       __           __    ________    ___ __   =
-[14:23:34] [Server thread/INFO]: [AsyncWorldEdit] =    /   |  _______  ______  ____| |     / /___  _____/ /___/ / ____/___/ (_) /_  =
-[14:23:34] [Server thread/INFO]: [AsyncWorldEdit] =   / /| | / ___/ / / / __ \/ ___/ | /| / / __ \/ ___/ / __  / __/ / __  / / __/  =
-[14:23:34] [Server thread/INFO]: [AsyncWorldEdit] =  / ___ |(__  ) /_/ / / / / /__ | |/ |/ / /_/ / /  / / /_/ / /___/ /_/ / / /_    =
-[14:23:34] [Server thread/INFO]: [AsyncWorldEdit] = /_/  |_/____/\__, /_/ /_/\___/ |__/|__/\____/_/  /_/\__,_/_____/\__,_/_/\__/    =
-[14:23:34] [Server thread/INFO]: [AsyncWorldEdit] =             /____/                                                              =
-[14:23:34] [Server thread/INFO]: [AsyncWorldEdit] = Author: SBPrime                                                                 =
-[14:23:34] [Server thread/INFO]: [AsyncWorldEdit] =                                ________________                                 =
-[14:23:34] [Server thread/INFO]: [AsyncWorldEdit] =                            ___/  free version  \___                             =
-[14:23:34] [Server thread/INFO]: [AsyncWorldEdit] ===================================================================================
-[14:23:34] [Server thread/INFO]: [AsyncWorldEdit] Initializing WorldEdit.
-[14:23:34] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
-[14:23:34] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
-[14:23:34] [Server thread/INFO]: [AsyncWorldEdit] No matching adapter found for Bukkit.v1_16_R3, DirectChunkAPI disabled
-[14:23:34] [Server thread/INFO]: [AsyncWorldEdit] PlotMeFix set to class org.primesoft.asyncworldedit.plotme.NullFix.
-[14:23:34] [Server thread/INFO]: [AsyncWorldEdit] Enabled
-[14:23:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:23:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:23:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:23:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:23:34] [Server thread/INFO]: Preparing level "world"
-[14:23:34] [Thread-12/INFO]: [AsyncWorldEdit] You have the latest version of the plugin.
-[14:23:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[14:23:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:23:37] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[14:23:37] [Server thread/INFO]: Preparing spawn area: 0%
-[14:23:37] [Server thread/INFO]: Preparing spawn area: 0%
-[14:23:37] [Server thread/INFO]: Preparing spawn area: 0%
-[14:23:37] [Server thread/INFO]: Preparing spawn area: 1%
-[14:23:38] [Server thread/INFO]: Time elapsed: 1816 ms
-[14:23:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:23:38] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[14:23:38] [Server thread/INFO]: Preparing spawn area: 0%
-[14:23:38] [Server thread/INFO]: Preparing spawn area: 2%
-[14:23:39] [Server thread/INFO]: Preparing spawn area: 19%
-[14:23:39] [Server thread/INFO]: Preparing spawn area: 19%
-[14:23:40] [Server thread/INFO]: Preparing spawn area: 26%
-[14:23:40] [Server thread/INFO]: Time elapsed: 2459 ms
-[14:23:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:23:40] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[14:23:40] [Server thread/INFO]: Preparing spawn area: 0%
-[14:23:41] [Server thread/INFO]: Preparing spawn area: 69%
-[14:23:41] [Worker-Main-1/INFO]: Preparing spawn area: 100%
-[14:23:41] [Server thread/INFO]: Time elapsed: 1294 ms
-[14:23:41] [Server thread/INFO]: [EntityTrackerFixer] Enabling EntityTrackerFixer v1.3.3
-[14:23:41] [Server thread/INFO]: [EntityTrackerFixer] Setting untrack ticks to: 400
-[14:23:41] [Server thread/INFO]: [EntityTrackerFixer] Setting check frequency to: 40
-[14:23:41] [Server thread/INFO]: [EntityTrackerFixer] Setting tracking range to: 30
-[14:23:41] [Server thread/INFO]: [EntityTrackerFixer] Setting minimun TPS to: 19.5
-[14:23:41] [Server thread/INFO]: [EntityTrackerFixer] Setting enable on all worlds to: false
-[14:23:41] [Server thread/INFO]: [EntityTrackerFixer] Adding world: world
-[14:23:41] [Server thread/INFO]: [EntityTrackerFixer] Adding world: world_nether
-[14:23:41] [Server thread/INFO]: [EntityTrackerFixer] Adding world: world_the_end
-[14:23:41] [Server thread/INFO]: [EntityTrackerFixer] Setting log to console to: true
-[14:23:41] [Server thread/INFO]: [EntityTrackerFixer] Setting disable tick for untracked to: true
-[14:23:41] [Server thread/INFO]: [EntityTrackerFixer] Vault not found! using default permission system...
-[14:23:41] [Server thread/INFO]: [CzechifyInfo] Enabling CzechifyInfo v1.0
-[14:23:41] [Server thread/INFO]: Loaded repeating command: 'tellraw @a ["",{"text":"Baví t\u011b server? Podpo\u0159 "},{"text":"Czechify","bold":true,"color":"#D7141A"},{"text":" na "},{"text":"[Patreonu]","color":"#F1C40F","clickEvent":{"action":"open_url","value":"https://www.patreon.com/czechify"},"hoverEvent":{"action":"show_text","contents":"Click to open the link"}},{"text":"!"}]'
-[14:23:41] [Server thread/INFO]: Enabled repeating command
-[14:23:41] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.0.2*
-[14:23:42] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[14:23:42] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[14:23:43] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[14:23:43] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[14:23:43] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[14:23:43] [Server thread/INFO]: [LPC] Enabling LPC v3.1.1
-[14:23:43] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.4+f7ff984
-[14:23:44] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[14:23:44] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[14:23:44] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[14:23:44] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[14:23:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[14:23:44] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[14:23:44] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[14:23:44] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[14:23:44] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[14:23:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[14:23:44] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[14:23:44] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[14:23:44] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[14:23:44] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[14:23:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[14:23:44] [Server thread/INFO]: [WorldGuard] Loading region data...
-[14:23:45] [Server thread/INFO]: Running delayed init tasks
-[14:23:45] [Server thread/INFO]: [AsyncWorldEdit] Loading plugins...
-[14:23:45] [Server thread/INFO]: Started
-[14:23:45] [Server thread/INFO]: No player was found
-[14:23:46] [User Authenticator #2/ERROR]: [LuckPerms] Exception occurred whilst loading data for a4fbdd4e-c90a-35fc-aefa-8df13480d404 - Polish_Gamer08
-java.util.concurrent.CompletionException: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'a4fbdd4e-c90a-35fc-aefa-8df13480d404' for key 'PRIMARY'
-	at me.lucko.luckperms.common.storage.Storage.lambda$future$0(Storage.java:92) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[?:1.8.0_212]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) ~[?:1.8.0_212]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) ~[?:1.8.0_212]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) ~[?:1.8.0_212]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) ~[?:1.8.0_212]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) ~[?:1.8.0_212]
-Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'a4fbdd4e-c90a-35fc-aefa-8df13480d404' for key 'PRIMARY'
-	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117) ~[?:?]
-	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[?:?]
-	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[?:?]
-	at me.lucko.luckperms.lib.mysql.cj.jdbc.ServerPreparedStatement.serverExecute(ServerPreparedStatement.java:637) ~[?:?]
-	at me.lucko.luckperms.lib.mysql.cj.jdbc.ServerPreparedStatement.executeInternal(ServerPreparedStatement.java:418) ~[?:?]
-	at me.lucko.luckperms.lib.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[?:?]
-	at me.lucko.luckperms.lib.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[?:?]
-	at me.lucko.luckperms.lib.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[?:?]
-	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.savePlayerData(SqlStorage.java:621) ~[?:?]
-	at me.lucko.luckperms.common.storage.Storage.lambda$savePlayerData$20(Storage.java:258) ~[?:?]
-	at me.lucko.luckperms.common.storage.Storage.lambda$future$0(Storage.java:87) ~[?:?]
-	... 6 more
-[14:23:46] [User Authenticator #3/ERROR]: [LuckPerms] Exception occurred whilst loading data for a4fbdd4e-c90a-35fc-aefa-8df13480d404 - Polish_Gamer08
-java.util.concurrent.CompletionException: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'a4fbdd4e-c90a-35fc-aefa-8df13480d404' for key 'PRIMARY'
-	at me.lucko.luckperms.common.storage.Storage.lambda$future$0(Storage.java:92) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[?:1.8.0_212]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) ~[?:1.8.0_212]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) ~[?:1.8.0_212]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) ~[?:1.8.0_212]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) ~[?:1.8.0_212]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) ~[?:1.8.0_212]
-Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'a4fbdd4e-c90a-35fc-aefa-8df13480d404' for key 'PRIMARY'
-	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117) ~[?:?]
-	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[?:?]
-	at me.lucko.luckperms.lib.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[?:?]
-	at me.lucko.luckperms.lib.mysql.cj.jdbc.ServerPreparedStatement.serverExecute(ServerPreparedStatement.java:637) ~[?:?]
-	at me.lucko.luckperms.lib.mysql.cj.jdbc.ServerPreparedStatement.executeInternal(ServerPreparedStatement.java:418) ~[?:?]
-	at me.lucko.luckperms.lib.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370) ~[?:?]
-	at me.lucko.luckperms.lib.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[?:?]
-	at me.lucko.luckperms.lib.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[?:?]
-	at me.lucko.luckperms.common.storage.implementation.sql.SqlStorage.savePlayerData(SqlStorage.java:621) ~[?:?]
-	at me.lucko.luckperms.common.storage.Storage.lambda$savePlayerData$20(Storage.java:258) ~[?:?]
-	at me.lucko.luckperms.common.storage.Storage.lambda$future$0(Storage.java:87) ~[?:?]
-	... 6 more
-[14:23:46] [Server thread/INFO]: Done (55.890s)! For help, type "help"
-[14:23:46] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[14:23:46] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
-[14:23:46] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
-[14:23:46] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
-[14:23:46] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[14:23:46] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
-[14:23:46] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
-[14:23:46] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
-[14:23:46] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
-[14:23:46] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[14:23:46] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_212
-[14:23:46] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[14:23:46] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
-[14:23:46] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
-[14:23:46] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[14:23:46] [Server thread/INFO]: Timings Reset
-[14:23:46] [User Authenticator #1/INFO]: UUID of player Polish_Gamer08 is a4fbdd4e-c90a-35fc-aefa-8df13480d404
-[14:23:46] [User Authenticator #2/INFO]: Disconnecting com.mojang.authlib.GameProfile@1695d1c[id=a4fbdd4e-c90a-35fc-aefa-8df13480d404,name=Polish_Gamer08,properties={},legacy=false] (/51.89.81.6:48677): [LP] A database error occurred whilst loading permissions data. Please try again later. If you are a server admin, please check the console for any errors.
-[14:23:46] [User Authenticator #3/INFO]: Disconnecting com.mojang.authlib.GameProfile@1695d1c[id=a4fbdd4e-c90a-35fc-aefa-8df13480d404,name=Polish_Gamer08,properties={},legacy=false] (/51.89.81.9:49489): [LP] A database error occurred whilst loading permissions data. Please try again later. If you are a server admin, please check the console for any errors.
-[14:23:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@1695d1c[id=a4fbdd4e-c90a-35fc-aefa-8df13480d404,name=Polish_Gamer08,properties={},legacy=false] (/51.89.81.6:48677) lost connection: Disconnected
-[14:23:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@1695d1c[id=a4fbdd4e-c90a-35fc-aefa-8df13480d404,name=Polish_Gamer08,properties={},legacy=false] (/51.89.81.15:52259) lost connection: Disconnected
-[14:23:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@1695d1c[id=a4fbdd4e-c90a-35fc-aefa-8df13480d404,name=Polish_Gamer08,properties={},legacy=false] (/51.89.81.9:49489) lost connection: Disconnected
-[14:23:49] [User Authenticator #3/INFO]: UUID of player peepega is 7afbbff7-2cdf-3154-be9d-7380d250dec7
-[14:23:50] [Server thread/INFO]: peepega joined the game
-[14:23:50] [Server thread/INFO]: peepega[/51.89.81.19:56007] logged in with entity id 222 at ([world]119.93856982334155, 10.0, -429.4531638094098)
-[14:23:54] [ForkJoinPool-1-worker-22/INFO]: [LP] (Import) -> Starting import process.
-[14:23:54] [ForkJoinPool-1-worker-22/INFO]: [LP] (Import) -> Reading data....
-[14:23:54] [ForkJoinPool-1-worker-22/INFO]: [LP] (Import) -> Waiting for initial update task to complete....
-[14:23:55] [ForkJoinPool-1-worker-22/INFO]: [LP] (Import) -> Setting up data processor....
-[14:23:55] [ForkJoinPool-1-worker-22/INFO]: [LP] (Import) -> All data entries have been processed and scheduled for import - now waiting for the execution to complete..
-[14:23:56] [ForkJoinPool-1-worker-22/INFO]: [LP] (Import) COMPLETED - took 1.62 seconds.
-[14:24:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5135ms or 102 ticks behind
-[14:24:26] [Server thread/INFO]: [EntityTrackerFixer] Untracked 639 entities in world
-[14:24:26] [Server thread/INFO]: [EntityTrackerFixer] Untracked 38 entities in world_nether
-[14:24:26] [Server thread/INFO]: [EntityTrackerFixer] Untracked 70 entities in world_the_end
-[14:24:34] [User Authenticator #3/INFO]: UUID of player Polish_Gamer08 is a4fbdd4e-c90a-35fc-aefa-8df13480d404
-[14:24:36] [Server thread/INFO]: Polish_Gamer08 joined the game
-[14:24:36] [Server thread/INFO]: Polish_Gamer08[/51.89.81.21:57317] logged in with entity id 827 at ([world]2263.465422130812, 64.0, -346.1129266286901)
-[14:24:36] [User Authenticator #3/INFO]: UUID of player Polish_Gamer08 is a4fbdd4e-c90a-35fc-aefa-8df13480d404
-[14:24:36] [Server thread/INFO]: Polish_Gamer08 lost connection: You logged in from another location
-[14:24:36] [Server thread/INFO]: Polish_Gamer08 left the game
-[14:24:37] [Server thread/INFO]: Polish_Gamer08 joined the game
-[14:24:37] [Server thread/INFO]: Polish_Gamer08[/51.89.81.9:43247] logged in with entity id 832 at ([world]2263.465422130812, 64.0, -346.1129266286901)
-[14:24:57] [Server thread/INFO]: Polish_Gamer08 lost connection: Disconnected
-[14:24:57] [Server thread/INFO]: Polish_Gamer08 left the game
-[14:24:59] [User Authenticator #3/INFO]: UUID of player Polish_Gamer08 is a4fbdd4e-c90a-35fc-aefa-8df13480d404
-[14:24:59] [Server thread/INFO]: Polish_Gamer08 joined the game
-[14:25:00] [Server thread/INFO]: Polish_Gamer08[/51.89.81.17:47053] logged in with entity id 903 at ([world]2262.2876351744326, 64.0, -343.9733356789228)
-[14:25:02] [User Authenticator #3/INFO]: UUID of player MartinNaj is f4086cc6-c941-381c-bc3e-623866a53920
-[14:25:02] [Server thread/INFO]: MartinNaj joined the game
-[14:25:02] [Server thread/INFO]: MartinNaj[/94.194.160.49:15553] logged in with entity id 904 at ([world]284.6888365796372, 49.0, 150.58611474439692)
-[14:25:14] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > hello
-[14:25:15] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > wheres my items
-[14:25:20] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > everything looks like it works
-[14:25:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 56701ms or 1134 ticks behind
-[14:25:27] [Server thread/INFO]: [EntityTrackerFixer] Untracked 158 entities in world
-[14:25:30] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > martinnaj
-[14:25:31] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > you should have your items...
-[14:25:37] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > i havent got
-[14:25:44] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > whats missing?
-[14:25:46] [Server thread/INFO]: MartinNaj issued server command: /gamemode spectator
-[14:25:46] [Server thread/INFO]: [MartinNaj: Set own game mode to Spectator Mode]
-[14:25:49] [Server thread/INFO]: MartinNaj issued server command: /spectate Polish_Gamer08
-[14:25:56] [Server thread/INFO]: MartinNaj issued server command: /gamemode survival
-[14:25:56] [Server thread/INFO]: [MartinNaj: Set own game mode to Survival Mode]
-[14:25:57] [Server thread/INFO]: MartinNaj issued server command: /gamemode spectator
-[14:25:57] [Server thread/INFO]: [MartinNaj: Set own game mode to Spectator Mode]
-[14:25:58] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > 30 porkchops
-[14:26:11] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > is that it?
-[14:26:26] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > diamond sword with fire aspekt
-[14:26:28] [Server thread/INFO]: [EntityTrackerFixer] Untracked 66 entities in world
-[14:26:35] [Server thread/INFO]: MartinNaj issued server command: /gamemode creative
-[14:26:35] [Server thread/INFO]: [MartinNaj: Set own game mode to Creative Mode]
-[14:26:44] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > cooked or raw porkchop?
-[14:26:51] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > and blaze road
-[14:26:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 59258ms or 1185 ticks behind
-[14:26:57] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > how many blaze rod?
-[14:27:02] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > 2
-[14:27:09] [Async Chat Thread - #0/INFO]: peepega > 0
-[14:27:13] [Server thread/INFO]: MartinNaj issued server command: /data get entity Polish_Gamer08 Inventory
-[14:27:15] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > no i have got
-[14:27:20] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > you have got?
-[14:27:23] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > yes
-[14:27:24] [Server thread/INFO]: [EntityTrackerFixer] Untracked 7 entities in world
-[14:27:33] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > where is your nether portall?
-[14:27:37] [Server thread/INFO]: MartinNaj issued server command: /gamemode spectator
-[14:27:37] [Server thread/INFO]: [MartinNaj: Set own game mode to Spectator Mode]
-[14:27:45] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > i ve got new house
-[14:28:03] [Server thread/INFO]: MartinNaj issued server command: /gamemode creative
-[14:28:03] [Server thread/INFO]: [MartinNaj: Set own game mode to Creative Mode]
-[14:28:08] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > becouse my friends kill me and i hevent got a bad
-[14:28:11] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > okay...
-[14:28:13] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > bed
-[14:28:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 58124ms or 1162 ticks behind
-[14:28:24] [Server thread/INFO]: [EntityTrackerFixer] Untracked 55 entities in world
-[14:28:29] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > fire aspect 1 or 2?
-[14:28:32] [Server thread/INFO]: peepega issued server command: /ww
-[14:28:34] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > 2
-[14:28:48] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > cooked porkchop or raw?
-[14:28:54] [Server thread/INFO]: MartinNaj has made the advancement [Into Fire]
-[14:28:55] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > cooked
-[14:29:19] [Server thread/INFO]: [EntityTrackerFixer] Untracked 36 entities in world
-[14:29:27] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > if you're lying to me, ill find out
-[14:29:35] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > ok
-[14:29:36] [Server thread/INFO]: Polish_Gamer08 has made the advancement [Into Fire]
-[14:29:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 55185ms or 1103 ticks behind
-[14:29:55] [User Authenticator #4/INFO]: UUID of player KenViX_911 is c7d8615e-cfbb-3fde-ac83-e509019f6a4f
-[14:29:56] [Server thread/INFO]: KenViX_911 joined the game
-[14:29:56] [Server thread/INFO]: KenViX_911[/51.195.87.157:35575] logged in with entity id 1415 at ([world]2177.4408286788075, 8.0, -240.9336916864787)
-[14:29:56] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > wow
-[14:29:59] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > you lied, cooll
-[14:30:05] [Server thread/INFO]: MartinNaj issued server command: /clear Polish_Gamer08
-[14:30:05] [Server thread/INFO]: [MartinNaj: Removed 31 items from player Polish_Gamer08]
-[14:30:06] [Async Chat Thread - #0/INFO]: KenViX_911 > heeej
-[14:30:20] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > how to have a steve becouse i dont like alex
-[14:30:21] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > ncie try
-[14:30:23] [Server thread/INFO]: [EntityTrackerFixer] Untracked 107 entities in world
-[14:30:26] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > what
-[14:30:27] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > no clue
-[14:30:32] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > you didnt have any blaze rods
-[14:30:39] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > what i have
-[14:30:43] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > because when i gave you it, you got the achievement
-[14:30:49] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > meaning you didnt have them
-[14:30:56] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > sword
-[14:31:01] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > welllllllllllll
-[14:31:04] [Server thread/INFO]: peepega issued server command: /msg KenViX_911 ej sr za te przezwiska chce sie pogodzić ale nw czy chcesz jak mi oddadzą 3 odlamki to ci dam na zgode
-[14:31:06] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > and porkchops
-[14:31:08] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > shouldnt have lied about the blaze rods...
-[14:31:17] [Server thread/INFO]: peepega issued server command: /
-[14:31:19] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > anyone else missing inventory items?
-[14:31:21] [Server thread/INFO]: KenViX_911 issued server command: /msg peepega ok ja tez sorkka
-[14:31:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 68191ms or 1363 ticks behind
-[14:31:27] [Server thread/INFO]: [EntityTrackerFixer] Untracked 65 entities in world
-[14:31:32] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > i share a screen
-[14:31:37] [Async Chat Thread - #0/INFO]: §xCzechify §xMartinNaj > .................
-[14:31:44] [Async Chat Thread - #0/INFO]: Polish_Gamer08 > i havent gor any items
-[14:31:59] [Server thread/INFO]: [EntityTrackerFixer] Untracked 104 entities in world
-[14:32:07] [User Authenticator #5/WARN]: [LuckPerms] Processing login for JuliaScore took 1160ms.
-[14:32:08] [User Authenticator #5/INFO]: UUID of player JuliaScore is 00a7db9d-7969-36e6-b4b2-85cd86dfe10d
-[14:32:08] [Server thread/INFO]: JuliaScore joined the game
-[14:32:08] [Server thread/INFO]: JuliaScore[/51.89.81.19:46725] logged in with entity id 1725 at ([world]2110.025956110273, 63.0, -327.880689539093)
-[14:32:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14042ms or 280 ticks behind
-[14:32:13] [Server thread/INFO]: peepega issued server command: /
-[14:32:22] [User Authenticator #5/INFO]: UUID of player MiniKlick is ca150f39-93c5-34cc-841c-c59687f4ff20
-[14:32:23] [Server thread/INFO]: MiniKlick joined the game
-[14:32:23] [Server thread/INFO]: MiniKlick[/217.182.27.244:39911] logged in with entity id 1812 at ([world]307.1464163248153, 39.0, 128.38275335304934)
-[14:32:25] [Server thread/INFO]: [EntityTrackerFixer] Untracked 149 entities in world
-[14:32:26] [Server thread/INFO]: JuliaScore lost connection: Disconnected
-[14:32:26] [Server thread/INFO]: JuliaScore left the game
-[14:32:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11492ms or 229 ticks behind
-[14:32:53] [Server thread/INFO]: [EntityTrackerFixer] Untracked 92 entities in world
-[14:32:56] [Server thread/INFO]: MartinNaj issued server command: /data get entity Polish_Gamer08 Achivement
-[14:32:58] [Server thread/INFO]: MartinNaj issued server command: /data get entity Polish_Gamer08 Achivements
-[14:33:26] [Server thread/INFO]: [EntityTrackerFixer] Untracked 102 entities in world
-[14:33:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18995ms or 379 ticks behind
-[14:33:56] [Server thread/INFO]: [EntityTrackerFixer] Untracked 82 entities in world
-[14:34:45] [Server thread/INFO]: MartinNaj issued server command: /gamemode survival
-[14:34:45] [Server thread/INFO]: [MartinNaj: Set own game mode to Survival Mode]
-[14:34:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 43324ms or 866 ticks behind
-[14:34:55] [Server thread/INFO]: [EntityTrackerFixer] Untracked 97 entities in world
-[14:35:31] [Server thread/INFO]: MartinNaj issued server command: /tp MiniKlick
-[14:35:31] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to MiniKlick]
-[14:35:44] [Server thread/INFO]: MartinNaj issued server command: /gamemode spectator
-[14:35:44] [Server thread/INFO]: [MartinNaj: Set own game mode to Spectator Mode]
-[14:35:49] [Server thread/INFO]: MartinNaj issued server command: /gamemode survival
-[14:35:49] [Server thread/INFO]: [MartinNaj: Set own game mode to Survival Mode]
-[14:36:11] [Server thread/INFO]: [EntityTrackerFixer] Untracked 111 entities in world
-[14:36:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 93033ms or 1860 ticks behind
-[14:37:39] [Server thread/INFO]: [EntityTrackerFixer] Untracked 109 entities in world
-[14:38:18] [Async Chat Thread - #1/INFO]: Polish_Gamer08 > elo
-[14:38:22] [Async Chat Thread - #1/INFO]: KenViX_911 > OKRADASZ ICH?
-[14:38:27] [Async Chat Thread - #1/INFO]: Polish_Gamer08 > nie
-[14:38:28] [Server thread/INFO]: peepega issued server command: /
-[14:38:30] [Async Chat Thread - #1/INFO]: KenViX_911 > omk tesz chcw
-[14:38:32] [Async Chat Thread - #1/INFO]: KenViX_911 > a to nie
-[14:38:37] [Async Chat Thread - #1/INFO]: Polish_Gamer08 > dasz
-[14:38:44] [Async Chat Thread - #1/INFO]: Polish_Gamer08 > jedzenie
-[14:38:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 80577ms or 1611 ticks behind
-[14:38:48] [Server thread/INFO]: [EntityTrackerFixer] Untracked 523 entities in world
-[14:38:52] [Async Chat Thread - #1/INFO]: Polish_Gamer08 > zostałem oskamowany
-[14:38:53] [Async Chat Thread - #1/INFO]: KenViX_911 > masz
-[14:38:57] [Server thread/INFO]: peepega issued server command: /
-[14:39:02] [Async Chat Thread - #1/INFO]: KenViX_911 > pzses koko?
-[14:39:14] [Async Chat Thread - #1/INFO]: Polish_Gamer08 > nie resetowali server i mi całe eq znikneło
-[14:39:21] [Async Chat Thread - #1/INFO]: KenViX_911 > HAAAAAAAAAAAAAAAAA
-[14:39:25] [Async Chat Thread - #1/INFO]: KenViX_911 > CXDDDDDDDDDDDDDDDDDD
-[14:39:26] [Async Chat Thread - #1/INFO]: Polish_Gamer08 > pls
-[14:39:29] [Server thread/INFO]: peepega issued server command: /
-[14:39:34] [Async Chat Thread - #1/INFO]: KenViX_911 > WINCYJ NIMAM
-[14:39:43] [Async Chat Thread - #1/INFO]: Polish_Gamer08 > a dc
-[14:39:47] [Server thread/INFO]: [EntityTrackerFixer] Untracked 76 entities in world
-[14:40:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 63536ms or 1270 ticks behind
-[14:40:41] [Server thread/INFO]: Polish_Gamer08 was slain by KenViX_911
-[14:40:43] [Server thread/INFO]: [EntityTrackerFixer] Untracked 94 entities in world
-[14:41:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23710ms or 474 ticks behind
-[14:41:16] [Server thread/INFO]: [EntityTrackerFixer] Untracked 94 entities in world
-[14:41:44] [Server thread/INFO]: [EntityTrackerFixer] Untracked 85 entities in world
-[14:42:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20182ms or 403 ticks behind
-[14:42:24] [Server thread/INFO]: [EntityTrackerFixer] Untracked 121 entities in world
-[14:42:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20771ms or 415 ticks behind
-[14:42:57] [Server thread/INFO]: [EntityTrackerFixer] Untracked 120 entities in world
-[14:43:07] [Server thread/INFO]: Polish_Gamer08 was slain by KenViX_911
-[14:43:14] [Server thread/INFO]: peepega issued server command: /
-[14:43:26] [Server thread/INFO]: [EntityTrackerFixer] Untracked 82 entities in world
-[14:43:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13410ms or 268 ticks behind
-[14:43:42] [Server thread/INFO]: Polish_Gamer08 was slain by KenViX_911
-[14:43:55] [Server thread/INFO]: [EntityTrackerFixer] Untracked 77 entities in world
-[14:44:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12820ms or 256 ticks behind
-[14:44:23] [Server thread/INFO]: [EntityTrackerFixer] Untracked 99 entities in world
-[14:44:33] [Server thread/INFO]: KenViX_911 was slain by Polish_Gamer08
-[14:44:46] [Server thread/INFO]: MartinNaj issued server command: /tp Polish_Gamer08
-[14:44:46] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to Polish_Gamer08]
-[14:44:55] [Server thread/INFO]: [EntityTrackerFixer] Untracked 120 entities in world
-[14:45:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15331ms or 306 ticks behind
-[14:45:21] [Async Chat Thread - #2/INFO]: §xCzechify §xMartinNaj > what?
-[14:45:21] [Server thread/INFO]: [EntityTrackerFixer] Untracked 101 entities in world
-[14:45:24] [Server thread/INFO]: Polish_Gamer08 was slain by MartinNaj using [DER MOB-TÖTER]
-[14:45:30] [Server thread/INFO]: MartinNaj issued server command: /tp KenViX_911 MartinNaj
-[14:45:30] [Server thread/INFO]: [MartinNaj: Teleported KenViX_911 to MartinNaj]
-[14:45:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8270ms or 165 ticks behind
-[14:45:46] [Server thread/INFO]: [EntityTrackerFixer] Untracked 87 entities in world
-[14:45:46] [Async Chat Thread - #2/INFO]: peepega > co tam sie dzieje xd
-[14:46:00] [Async Chat Thread - #2/INFO]: §xCzechify §xMartinNaj > i have the best sword in the game xd
-[14:46:09] [Async Chat Thread - #2/INFO]: §xCzechify §xMartinNaj > can i kill a horse?
-[14:46:12] [Server thread/INFO]: [EntityTrackerFixer] Untracked 75 entities in world
-[14:46:12] [Server thread/INFO]: [EntityTrackerFixer] Untracked 1 entities in world_nether
-[14:46:12] [Async Chat Thread - #2/INFO]: KenViX_911 > ye
-[14:46:17] [Async Chat Thread - #2/INFO]: peepega > nooo
-[14:46:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12503ms or 250 ticks behind
-[14:46:46] [Server thread/INFO]: [EntityTrackerFixer] Untracked 113 entities in world
-[14:46:50] [Async Chat Thread - #2/INFO]: §xCzechify §xMartinNaj > who wants a pvp?
-[14:46:54] [Async Chat Thread - #2/INFO]: KenViX_911 > 0_0
-[14:47:01] [Async Chat Thread - #2/INFO]: §xCzechify §xMartinNaj > ill use my bad sword...
-[14:47:02] [Async Chat Thread - #2/INFO]: KenViX_911 > i dont have good items
-[14:47:50] [Server thread/INFO]: MartinNaj issued server command: /tp peepega
-[14:47:50] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to peepega]
-[14:47:52] [Server thread/INFO]: MartinNaj issued server command: /tp Polish_Gamer08
-[14:47:52] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to Polish_Gamer08]
-[14:47:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 54013ms or 1080 ticks behind
-[14:47:53] [Server thread/INFO]: [EntityTrackerFixer] Untracked 92 entities in world
-[14:47:57] [Server thread/INFO]: MartinNaj issued server command: /tp Polish_Gamer08
-[14:47:57] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to Polish_Gamer08]
-[14:48:05] [Server thread/INFO]: peepega issued server command: /
-[14:48:34] [Async Chat Thread - #3/INFO]: peepega > na jakich kordach spawn?
-[14:48:39] [Server thread/INFO]: Polish_Gamer08 was slain by MartinNaj using [DER MOB-TÖTER]
-[14:48:44] [Server thread/INFO]: [EntityTrackerFixer] Untracked 200 entities in world
-[14:49:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 37569ms or 751 ticks behind
-[14:49:08] [Async Chat Thread - #3/INFO]: peepega > na jakich kordach spawn?
-[14:49:13] [Server thread/INFO]: MartinNaj issued server command: /tp Polish_Gamer08
-[14:49:13] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to Polish_Gamer08]
-[14:49:14] [Async Chat Thread - #3/INFO]: KenViX_911 > okolo 0
-[14:49:15] [Server thread/INFO]: [EntityTrackerFixer] Untracked 99 entities in world
-[14:49:15] [Server thread/INFO]: [EntityTrackerFixer] Untracked 1 entities in world_nether
-[14:49:27] [Async Chat Thread - #3/INFO]: peepega > ?
-[14:49:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26363ms or 527 ticks behind
-[14:49:57] [Server thread/INFO]: [EntityTrackerFixer] Untracked 146 entities in world
-[14:50:08] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > can i show you DER MOB TOTER 2?
-[14:50:22] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > ?
-[14:50:25] [Server thread/INFO]: peepega issued server command: /
-[14:50:25] [Async Chat Thread - #3/INFO]: KenViX_911 > ye maybe
-[14:50:25] [Server thread/INFO]: Polish_Gamer08 was slain by MartinNaj using [DER MOB-TÖTER 2]
-[14:50:34] [Server thread/INFO]: MartinNaj issued server command: /tp Polish_Gamer08 MartinNaj
-[14:50:34] [Server thread/INFO]: [MartinNaj: Teleported Polish_Gamer08 to MartinNaj]
-[14:50:39] [Server thread/INFO]: [EntityTrackerFixer] Untracked 196 entities in world
-[14:50:42] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > you like it?
-[14:50:48] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > knockback 2
-[14:50:52] [Async Chat Thread - #3/INFO]: KenViX_911 > me?
-[14:50:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25972ms or 519 ticks behind
-[14:50:56] [Async Chat Thread - #3/INFO]: Polish_Gamer08 > give me my porkchops
-[14:50:57] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > bane of arthropods 5
-[14:51:03] [Async Chat Thread - #3/INFO]: KenViX_911 > uuu
-[14:51:06] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > i dont have your porkchopsd
-[14:51:07] [Server thread/INFO]: [EntityTrackerFixer] Untracked 114 entities in world
-[14:51:16] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > i deleted them
-[14:51:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10162ms or 203 ticks behind
-[14:51:33] [Server thread/INFO]: [EntityTrackerFixer] Untracked 44 entities in world
-[14:51:40] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > tee hee
-[14:51:45] [Async Chat Thread - #3/INFO]: Polish_Gamer08 > pls
-[14:51:47] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > i wanna pvp someone
-[14:51:54] [Async Chat Thread - #3/INFO]: KenViX_911 > me
-[14:51:58] [Server thread/INFO]: [EntityTrackerFixer] Untracked 115 entities in world
-[14:51:59] [Async Chat Thread - #3/INFO]: Polish_Gamer08 > giv me my porkchops
-[14:52:00] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > sure
-[14:52:03] [Server thread/INFO]: peepega issued server command: /
-[14:52:07] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > if ken wins, you get ur porkchops
-[14:52:11] [Async Chat Thread - #3/INFO]: KenViX_911 > o
-[14:52:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8711ms or 174 ticks behind
-[14:52:14] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > :)
-[14:52:16] [Async Chat Thread - #3/INFO]: KenViX_911 > 0_0
-[14:52:20] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > lets go
-[14:52:25] [Server thread/INFO]: [EntityTrackerFixer] Untracked 85 entities in world
-[14:52:41] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > ken, fight me
-[14:52:45] [Async Chat Thread - #3/INFO]: KenViX_911 > K
-[14:52:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7246ms or 144 ticks behind
-[14:52:49] [Server thread/INFO]: [EntityTrackerFixer] Untracked 51 entities in world
-[14:52:55] [Server thread/INFO]: KenViX_911 was burnt to a crisp whilst fighting MartinNaj
-[14:52:57] [Async Chat Thread - #3/INFO]: KenViX_911 > XD
-[14:53:04] [Server thread/INFO]: Polish_Gamer08 was slain by MartinNaj using [DER MOB-TÖTER]
-[14:53:09] [Server thread/INFO]: MartinNaj issued server command: /tp KenViX_911 MartinNaj
-[14:53:09] [Server thread/INFO]: [MartinNaj: Teleported KenViX_911 to MartinNaj]
-[14:53:14] [Server thread/WARN]: Horse (vehicle of peepega) moved wrongly! 0.6187709486620455
-[14:53:16] [Server thread/INFO]: [EntityTrackerFixer] Untracked 95 entities in world
-[14:53:16] [Server thread/INFO]: MartinNaj issued server command: /tp KenViX_911 MartinNaj
-[14:53:16] [Server thread/INFO]: [MartinNaj: Teleported KenViX_911 to MartinNaj]
-[14:53:21] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > your stufff
-[14:53:23] [Async Chat Thread - #3/INFO]: KenViX_911 > :D
-[14:53:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8997ms or 179 ticks behind
-[14:53:33] [Async Chat Thread - #3/INFO]: Polish_Gamer08 > giveme my diamond sword
-[14:53:40] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
-[14:53:40] [Server thread/INFO]: [EntityTrackerFixer] Untracked 33 entities in world
-[14:53:40] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
-[14:53:51] [Async Chat Thread - #3/INFO]: Polish_Gamer08 > i hevent got my eq
-[14:53:56] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > eq?
-[14:53:57] [Async Chat Thread - #3/INFO]: KenViX_911 > my items! :d
-[14:53:59] [Async Chat Thread - #3/INFO]: KenViX_911 > :D
-[14:54:01] [Async Chat Thread - #3/INFO]: Polish_Gamer08 > items
-[14:54:03] [Async Chat Thread - #3/INFO]: KenViX_911 > thx
-[14:54:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8245ms or 164 ticks behind
-[14:54:06] [Server thread/INFO]: [EntityTrackerFixer] Untracked 47 entities in world
-[14:54:07] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > no problem
-[14:54:08] [Server thread/WARN]: Horse (vehicle of peepega) moved wrongly! 0.3546320133414096
-[14:54:08] [Server thread/WARN]: Horse (vehicle of peepega) moved wrongly! 0.3546320133414096
-[14:54:08] [Server thread/WARN]: Horse (vehicle of peepega) moved wrongly! 0.3546320133414096
-[14:54:11] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > you missing anything?
-[14:54:17] [Async Chat Thread - #3/INFO]: KenViX_911 > no thx
-[14:54:26] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > is this leather yours?
-[14:54:31] [Server thread/INFO]: [EntityTrackerFixer] Untracked 72 entities in world
-[14:54:32] [Async Chat Thread - #3/INFO]: KenViX_911 > ye
-[14:54:35] [Async Chat Thread - #3/INFO]: KenViX_911 > 2
-[14:54:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8310ms or 166 ticks behind
-[14:54:49] [Server thread/INFO]: Polish_Gamer08 was burnt to a crisp whilst fighting MartinNaj
-[14:54:54] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > lol
-[14:54:56] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > der mob toter
-[14:54:57] [Async Chat Thread - #3/INFO]: KenViX_911 > lol
-[14:55:00] [Server thread/INFO]: [EntityTrackerFixer] Untracked 170 entities in world
-[14:55:00] [Server thread/INFO]: MartinNaj issued server command: /tp Polish_Gamer08 MartinNaj
-[14:55:00] [Server thread/INFO]: [MartinNaj: Teleported Polish_Gamer08 to MartinNaj]
-[14:55:16] [Server thread/INFO]: MartinNaj issued server command: /msg peepega you wanna fight?
-[14:55:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15181ms or 303 ticks behind
-[14:55:29] [Server thread/INFO]: [EntityTrackerFixer] Untracked 50 entities in world
-[14:55:34] [Server thread/INFO]: MartinNaj issued server command: /gamemode creative
-[14:55:34] [Server thread/INFO]: [MartinNaj: Set own game mode to Creative Mode]
-[14:55:37] [Async Chat Thread - #3/INFO]: Polish_Gamer08 > after server restart I lost my items
-[14:55:45] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > polish
-[14:55:47] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > come here
-[14:55:57] [Server thread/INFO]: [EntityTrackerFixer] Untracked 52 entities in world
-[14:56:08] [Async Chat Thread - #3/INFO]: KenViX_911 > look at that!
-[14:56:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9162ms or 183 ticks behind
-[14:56:14] [Async Chat Thread - #3/INFO]: §xCzechify §xMartinNaj > your porkchops....
-[14:56:21] [Server thread/INFO]: [EntityTrackerFixer] Untracked 53 entities in world
-[14:56:29] [Async Chat Thread - #3/INFO]: Polish_Gamer08 > and my sword
-[14:56:43] [Server thread/INFO]: peepega issued server command: /msg MartinNaj i have weak items :/
-[14:56:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7612ms or 152 ticks behind
-[14:56:46] [Server thread/INFO]: [EntityTrackerFixer] Untracked 55 entities in world
-[14:56:49] [Server thread/INFO]: MartinNaj issued server command: /gamemode survival
-[14:56:49] [Server thread/INFO]: [MartinNaj: Set own game mode to Survival Mode]
-[14:57:16] [Server thread/INFO]: peepega issued server command: /
-[14:57:18] [Server thread/INFO]: [EntityTrackerFixer] Untracked 68 entities in world
-[14:57:31] [Async Chat Thread - #4/INFO]: §xCzechify §xMartinNaj > you like my shovel?
-[14:57:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15291ms or 305 ticks behind
-[14:57:34] [Async Chat Thread - #4/INFO]: KenViX_911 > ye
-[14:57:49] [Server thread/INFO]: [EntityTrackerFixer] Untracked 159 entities in world
-[14:58:02] [Server thread/INFO]: MiniKlick has made the advancement [Fishy Business]
-[14:58:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18381ms or 367 ticks behind
-[14:58:20] [Server thread/INFO]: [EntityTrackerFixer] Untracked 119 entities in world
-[14:58:20] [Server thread/INFO]: MartinNaj issued server command: /tp peepega MartinNaj
-[14:58:20] [Server thread/INFO]: [MartinNaj: Teleported peepega to MartinNaj]
-[14:58:22] [Async Chat Thread - #4/INFO]: §xCzechify §xMartinNaj > hello
-[14:58:26] [Async Chat Thread - #4/INFO]: KenViX_911 > hello
-[14:58:27] [Async Chat Thread - #4/INFO]: peepega > OH NO
-[14:58:30] [Async Chat Thread - #4/INFO]: KenViX_911 > XD
-[14:58:36] [Async Chat Thread - #4/INFO]: §xCzechify §xMartinNaj > what happened?
-[14:58:41] [Async Chat Thread - #4/INFO]: peepega > my horse
-[14:58:42] [Server thread/INFO]: [EntityTrackerFixer] Untracked 24 entities in world
-[14:58:45] [Async Chat Thread - #4/INFO]: §xCzechify §xMartinNaj > where is it?
-[14:58:45] [User Authenticator #6/INFO]: UUID of player _Baltyk is ca518554-5b75-35fc-8a55-8510b1cd32d8
-[14:58:46] [Server thread/INFO]: _Baltyk joined the game
-[14:58:46] [Server thread/INFO]: _Baltyk[/51.89.81.16:46091] logged in with entity id 7286 at ([world]156.76249998807907, 68.0, -434.42810666644806)
-[14:58:50] [Async Chat Thread - #4/INFO]: KenViX_911 > [*]
-[14:58:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9030ms or 180 ticks behind
-[14:59:00] [Async Chat Thread - #4/INFO]: §xCzechify §xMartinNaj > if i put you in spectator, will that help you find it?
-[14:59:13] [Async Chat Thread - #4/INFO]: peepega > tp spawn
-[14:59:14] [Server thread/INFO]: [EntityTrackerFixer] Untracked 520 entities in world
-[14:59:20] [Async Chat Thread - #4/INFO]: _Baltyk > tp to me\
-[14:59:24] [Server thread/INFO]: MartinNaj issued server command: /tp peepega _Baltyk
-[14:59:24] [Server thread/INFO]: [MartinNaj: Teleported peepega to _Baltyk]
-[14:59:33] [Server thread/INFO]: MartinNaj issued server command: /gamemode spectator
-[14:59:33] [Server thread/INFO]: [MartinNaj: Set own game mode to Spectator Mode]
-[14:59:36] [Server thread/INFO]: MartinNaj issued server command: /tp MiniKlick
-[14:59:36] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to MiniKlick]
-[14:59:37] [Async Chat Thread - #4/INFO]: peepega > spawnn
-[14:59:40] [Server thread/INFO]: KenViX_911 was slain by Polish_Gamer08
-[14:59:45] [Async Chat Thread - #4/INFO]: §xCzechify §xMartinNaj > 1 sec
-[14:59:50] [Server thread/INFO]: MartinNaj issued server command: /time set day
-[14:59:50] [Server thread/INFO]: [MartinNaj: Set the time to 1000]
-[14:59:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30475ms or 609 ticks behind
-[14:59:59] [Server thread/INFO]: [EntityTrackerFixer] Untracked 130 entities in world
-[15:00:06] [Server thread/INFO]: MartinNaj issued server command: /tp peepega MartinNaj
-[15:00:06] [Server thread/INFO]: [MartinNaj: Teleported peepega to MartinNaj]
-[15:00:10] [Server thread/INFO]: peepega issued server command: /msg _Baltyk martin mn tepnoł i moj kon ... xd
-[15:00:24] [Server thread/INFO]: _Baltyk issued server command: /msg peepega co?
-[15:00:27] [Async Chat Thread - #4/INFO]: KenViX_911 > POLISH COME THERE
-[15:00:37] [Server thread/INFO]: _Baltyk issued server command: /msg peepega aaa
-[15:00:47] [Server thread/INFO]: _Baltyk issued server command: /msg peepega jak logniesz na koniu to razem z nim
-[15:00:48] [Server thread/INFO]: [EntityTrackerFixer] Untracked 160 entities in world
-[15:00:56] [Server thread/INFO]: _Baltyk issued server command: /msg peepega discord?
-[15:01:00] [Server thread/INFO]: KenViX_911 was slain by Polish_Gamer08
-[15:01:01] [Server thread/INFO]: MartinNaj issued server command: /tp peepega
-[15:01:01] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to peepega]
-[15:01:05] [Async Chat Thread - #4/INFO]: KenViX_911 > KURWAAAAAAAAAAAAAAAAAAA
-[15:01:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 39302ms or 786 ticks behind
-[15:01:09] [Async Chat Thread - #4/INFO]: _Baltyk > oco chodzi
-[15:01:22] [Server thread/INFO]: MartinNaj issued server command: /tp MiniKlick MartinNaj
-[15:01:22] [Server thread/INFO]: [MartinNaj: Teleported MiniKlick to MartinNaj]
-[15:01:29] [Server thread/INFO]: [EntityTrackerFixer] Untracked 213 entities in world
-[15:01:33] [Server thread/INFO]: MartinNaj issued server command: /tp MiniKlick MartinNaj
-[15:01:33] [Server thread/INFO]: [MartinNaj: Teleported MiniKlick to MartinNaj]
-[15:01:40] [Async Chat Thread - #4/INFO]: _Baltyk > martin can u tp me to kenvix
-[15:01:45] [Server thread/INFO]: MartinNaj issued server command: /tp _Baltyk KenViX_911
-[15:01:45] [Server thread/INFO]: [MartinNaj: Teleported _Baltyk to KenViX_911]
-[15:01:53] [Async Chat Thread - #4/INFO]: KenViX_911 > noooooooo
-[15:01:56] [Async Chat Thread - #4/INFO]: _Baltyk > tp me back
-[15:02:00] [Server thread/INFO]: MartinNaj issued server command: /tp _Baltyk MartinNaj
-[15:02:00] [Server thread/INFO]: [MartinNaj: Teleported _Baltyk to MartinNaj]
-[15:02:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24850ms or 497 ticks behind
-[15:02:03] [Server thread/INFO]: [EntityTrackerFixer] Untracked 147 entities in world
-[15:02:09] [Async Chat Thread - #4/INFO]: _Baltyk > tp me to peepega
-[15:02:13] [Server thread/INFO]: MartinNaj issued server command: /tp _Baltyk peepega
-[15:02:13] [Server thread/INFO]: [MartinNaj: Teleported _Baltyk to peepega]
-[15:02:22] [Server thread/INFO]: MartinNaj issued server command: /tp MiniKlick MartinNaj
-[15:02:22] [Server thread/INFO]: [MartinNaj: Teleported MiniKlick to MartinNaj]
-[15:02:46] [Server thread/INFO]: Polish_Gamer08 lost connection: Disconnected
-[15:02:46] [Server thread/INFO]: Polish_Gamer08 left the game
-[15:02:53] [Server thread/INFO]: [EntityTrackerFixer] Untracked 158 entities in world
-[15:03:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 39212ms or 784 ticks behind
-[15:03:45] [Server thread/INFO]: [EntityTrackerFixer] Untracked 121 entities in world
-[15:03:56] [Server thread/WARN]: Horse (vehicle of peepega) moved wrongly! 0.2825246317986457
-[15:04:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 46067ms or 921 ticks behind
-[15:04:28] [Server thread/INFO]: [EntityTrackerFixer] Untracked 265 entities in world
-[15:04:58] [Server thread/INFO]: [EntityTrackerFixer] Untracked 86 entities in world
-[15:05:18] [Async Chat Thread - #5/INFO]: _Baltyk > martin tp me to spawn
-[15:05:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26380ms or 527 ticks behind
-[15:05:47] [Server thread/INFO]: [EntityTrackerFixer] Untracked 179 entities in world
-[15:06:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25513ms or 510 ticks behind
-[15:06:20] [Server thread/INFO]: [EntityTrackerFixer] Untracked 109 entities in world
-[15:06:53] [Server thread/INFO]: [EntityTrackerFixer] Untracked 99 entities in world
-[15:07:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18121ms or 362 ticks behind
-[15:07:24] [Server thread/INFO]: [EntityTrackerFixer] Untracked 88 entities in world
-[15:07:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14700ms or 294 ticks behind
-[15:07:53] [Server thread/INFO]: [EntityTrackerFixer] Untracked 61 entities in world
-[15:08:22] [Server thread/INFO]: [EntityTrackerFixer] Untracked 78 entities in world
-[15:08:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15582ms or 311 ticks behind
-[15:08:50] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.4224674702453797
-[15:08:50] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.4224674702453797
-[15:08:50] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.4224674702453797
-[15:08:50] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.4224674702453797
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.4224674702453797
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.4224674702453797
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.41854747024538597
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.41854747024538597
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.41854747024538597
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.41854747024538597
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.3618299702453953
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.3314815668203437
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.3152427412294969
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.3065536694230957
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:51] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.30190432034089554
-[15:08:55] [Server thread/INFO]: [EntityTrackerFixer] Untracked 65 entities in world
-[15:09:23] [Server thread/INFO]: _Baltyk lost connection: Disconnected
-[15:09:23] [Server thread/INFO]: _Baltyk left the game
-[15:09:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14874ms or 297 ticks behind
-[15:09:24] [Server thread/INFO]: [EntityTrackerFixer] Untracked 156 entities in world
-[15:09:30] [User Authenticator #7/INFO]: UUID of player _Baltyk is ca518554-5b75-35fc-8a55-8510b1cd32d8
-[15:09:30] [Server thread/INFO]: _Baltyk joined the game
-[15:09:30] [Server thread/INFO]: _Baltyk[/51.89.81.11:55481] logged in with entity id 10458 at ([world]255.3419952769397, 64.8500000178814, 55.09055212308945)
-[15:09:50] [Server thread/INFO]: [EntityTrackerFixer] Untracked 38 entities in world
-[15:10:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10337ms or 206 ticks behind
-[15:10:18] [Server thread/INFO]: [EntityTrackerFixer] Untracked 112 entities in world
-[15:10:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11177ms or 223 ticks behind
-[15:10:45] [Server thread/INFO]: [EntityTrackerFixer] Untracked 65 entities in world
-[15:11:19] [Server thread/INFO]: [EntityTrackerFixer] Untracked 139 entities in world
-[15:11:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21778ms or 435 ticks behind
-[15:11:52] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.279447669146519
-[15:11:55] [Server thread/INFO]: [EntityTrackerFixer] Untracked 545 entities in world
-[15:12:11] [Server thread/INFO]: KenViX_911 lost connection: Disconnected
-[15:12:11] [Server thread/INFO]: KenViX_911 left the game
-[15:12:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18757ms or 375 ticks behind
-[15:12:25] [Server thread/INFO]: [EntityTrackerFixer] Untracked 74 entities in world
-[15:12:48] [Server thread/INFO]: [EntityTrackerFixer] Untracked 37 entities in world
-[15:13:09] [Server thread/INFO]: [EntityTrackerFixer] Untracked 78 entities in world
-[15:13:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
-[15:13:33] [Server thread/INFO]: [EntityTrackerFixer] Untracked 47 entities in world
-[15:13:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5273ms or 105 ticks behind
-[15:13:58] [Server thread/INFO]: [EntityTrackerFixer] Untracked 57 entities in world
-[15:14:18] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 1.1383751687227375
-[15:14:19] [Server thread/INFO]: [EntityTrackerFixer] Untracked 45 entities in world
-[15:14:35] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.5674555196168001
-[15:14:35] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.5732423541005289
-[15:14:36] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.5732423541005289
-[15:14:39] [Server thread/INFO]: [EntityTrackerFixer] Untracked 42 entities in world
-[15:15:00] [Server thread/INFO]: [EntityTrackerFixer] Untracked 50 entities in world
-[15:15:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5029ms or 100 ticks behind
-[15:15:26] [Server thread/INFO]: [EntityTrackerFixer] Untracked 55 entities in world
-[15:15:46] [Server thread/INFO]: [EntityTrackerFixer] Untracked 60 entities in world
-[15:15:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5988ms or 119 ticks behind
-[15:16:07] [Server thread/INFO]: [EntityTrackerFixer] Untracked 51 entities in world
-[15:17:11] [Server thread/INFO]: [EntityTrackerFixer] Untracked 116 entities in world
-[15:17:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5021ms or 100 ticks behind
-[15:17:34] [Server thread/INFO]: [EntityTrackerFixer] Untracked 48 entities in world
-[15:17:52] [Async Chat Thread - #6/INFO]: _Baltyk > macie marchewki
-[15:17:57] [Server thread/INFO]: [EntityTrackerFixer] Untracked 43 entities in world
-[15:18:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
-[15:18:17] [Server thread/INFO]: [EntityTrackerFixer] Untracked 32 entities in world
-[15:18:38] [Server thread/INFO]: [EntityTrackerFixer] Untracked 47 entities in world
-[15:18:51] [User Authenticator #8/INFO]: UUID of player Polish_Gamer08 is a4fbdd4e-c90a-35fc-aefa-8df13480d404
-[15:18:51] [Server thread/INFO]: com.mojang.authlib.GameProfile@1695d1c[id=a4fbdd4e-c90a-35fc-aefa-8df13480d404,name=Polish_Gamer08,properties={},legacy=false] (/51.195.87.152:35247) lost connection: Disconnected
-[15:18:53] [User Authenticator #8/INFO]: UUID of player Polish_Gamer08 is a4fbdd4e-c90a-35fc-aefa-8df13480d404
-[15:18:53] [Server thread/INFO]: Polish_Gamer08 joined the game
-[15:18:53] [Server thread/INFO]: Polish_Gamer08[/51.195.87.153:35391] logged in with entity id 13019 at ([world]2169.5513184922183, 65.21268848999432, -238.30000001192087)
-[15:18:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5012ms or 100 ticks behind
-[15:19:22] [Server thread/INFO]: [EntityTrackerFixer] Untracked 178 entities in world
-[15:20:00] [Server thread/INFO]: [EntityTrackerFixer] Untracked 66 entities in world
-[15:20:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 39199ms or 783 ticks behind
-[15:20:09] [Async Chat Thread - #7/INFO]: peepega > you have carrots?
-[15:20:28] [Server thread/INFO]: peepega issued server command: /
-[15:20:29] [Async Chat Thread - #7/INFO]: _Baltyk > sleeep
-[15:20:30] [Server thread/INFO]: [EntityTrackerFixer] Untracked 86 entities in world
-[15:20:35] [Async Chat Thread - #7/INFO]: _Baltyk > martin do day
-[15:20:43] [Server thread/INFO]: MartinNaj issued server command: /time set dayt
-[15:20:45] [Server thread/INFO]: MartinNaj issued server command: /time set day
-[15:20:45] [Server thread/INFO]: [MartinNaj: Set the time to 1000]
-[15:20:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16503ms or 330 ticks behind
-[15:20:52] [Async Chat Thread - #7/INFO]: peepega > you have carrots?
-[15:21:03] [Server thread/INFO]: [EntityTrackerFixer] Untracked 120 entities in world
-[15:21:41] [Server thread/INFO]: MartinNaj issued server command: /tp peepega
-[15:21:41] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to peepega]
-[15:21:42] [Server thread/INFO]: [EntityTrackerFixer] Untracked 160 entities in world
-[15:21:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25091ms or 501 ticks behind
-[15:22:06] [Server thread/INFO]: [EntityTrackerFixer] Untracked 39 entities in world
-[15:22:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7985ms or 159 ticks behind
-[15:22:34] [Server thread/INFO]: [EntityTrackerFixer] Untracked 63 entities in world
-[15:22:38] [Server thread/INFO]: peepega issued server command: /
-[15:23:01] [Server thread/INFO]: peepega issued server command: /
-[15:23:01] [Server thread/INFO]: [EntityTrackerFixer] Untracked 82 entities in world
-[15:23:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11816ms or 236 ticks behind
-[15:23:14] [Server thread/INFO]: Polish_Gamer08 has made the advancement [Best Friends Forever]
-[15:23:23] [Async Chat Thread - #8/INFO]: peepega > you have carrots?
-[15:23:32] [Async Chat Thread - #8/INFO]: peepega > you have carrots?
-[15:23:33] [Async Chat Thread - #8/INFO]: peepega > you have carrots?
-[15:23:35] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > nah
-[15:23:36] [Async Chat Thread - #8/INFO]: _Baltyk > oyu have carrots?
-[15:23:37] [Async Chat Thread - #8/INFO]: _Baltyk > oyu have carrots?
-[15:23:38] [Async Chat Thread - #8/INFO]: _Baltyk > oyu have carrots?
-[15:23:41] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > i dont
-[15:23:47] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
-[15:23:47] [Server thread/INFO]: [EntityTrackerFixer] Untracked 139 entities in world
-[15:23:47] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
-[15:23:55] [Async Chat Thread - #8/INFO]: _Baltyk > give us from creative mode
-[15:23:58] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > lol no
-[15:24:02] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > thats CHEATING
-[15:24:10] [Async Chat Thread - #8/INFO]: _Baltyk > this is where you plaing
-[15:24:15] [Async Chat Thread - #8/INFO]: _Baltyk > playing
-[15:24:16] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > what?
-[15:24:27] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > im just watching you lol
-[15:24:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 55482ms or 1109 ticks behind
-[15:24:36] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > im in the wool
-[15:24:37] [Async Chat Thread - #8/INFO]: _Baltyk > why
-[15:24:41] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > why not
-[15:24:51] [Server thread/INFO]: [EntityTrackerFixer] Untracked 46 entities in world
-[15:24:54] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > imin your house
-[15:25:00] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > ooooo
-[15:25:01] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > 2 buckets
-[15:25:17] [Server thread/INFO]: [EntityTrackerFixer] Untracked 69 entities in world
-[15:25:19] [Async Chat Thread - #8/INFO]: _Baltyk > you motherfuer
-[15:25:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20603ms or 412 ticks behind
-[15:25:30] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > nice enchantment table
-[15:25:43] [Async Chat Thread - #8/INFO]: _Baltyk > im ghoing to burn your house
-[15:25:45] [Server thread/INFO]: [EntityTrackerFixer] Untracked 58 entities in world
-[15:26:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15357ms or 307 ticks behind
-[15:26:06] [Server thread/INFO]: MartinNaj issued server command: /tp MiniKlick
-[15:26:06] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to MiniKlick]
-[15:26:20] [Server thread/INFO]: [EntityTrackerFixer] Untracked 104 entities in world
-[15:26:21] [Server thread/INFO]: MartinNaj issued server command: /tp _Baltyk
-[15:26:21] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to _Baltyk]
-[15:26:31] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > come on then
-[15:26:35] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > burn my house
-[15:26:45] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > im in your roof
-[15:26:46] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > :(
-[15:26:56] [Async Chat Thread - #8/INFO]: _Baltyk > get out of here
-[15:26:57] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > i like the chimney
-[15:27:03] [Server thread/INFO]: [EntityTrackerFixer] Untracked 67 entities in world
-[15:27:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30497ms or 609 ticks behind
-[15:27:10] [Async Chat Thread - #8/INFO]: _Baltyk > we dont like you
-[15:27:22] [Server thread/INFO]: MartinNaj issued server command: /gamerule doFireTick true
-[15:27:22] [Server thread/INFO]: [MartinNaj: Gamerule doFireTick is now set to: true]
-[15:27:26] [Server thread/INFO]: MartinNaj issued server command: /gamerule doFireTick false
-[15:27:26] [Server thread/INFO]: [MartinNaj: Gamerule doFireTick is now set to: false]
-[15:27:30] [Server thread/INFO]: [EntityTrackerFixer] Untracked 68 entities in world
-[15:27:30] [Async Chat Thread - #8/INFO]: Polish_Gamer08 > martin
-[15:27:35] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > yeah
-[15:27:43] [Server thread/INFO]: _Baltyk lost connection: Disconnected
-[15:27:43] [Server thread/INFO]: _Baltyk left the game
-[15:27:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9829ms or 196 ticks behind
-[15:27:48] [User Authenticator #9/INFO]: UUID of player _Baltyk is ca518554-5b75-35fc-8a55-8510b1cd32d8
-[15:27:48] [Server thread/INFO]: _Baltyk joined the game
-[15:27:48] [Server thread/INFO]: _Baltyk[/51.195.87.148:42335] logged in with entity id 14815 at ([world]147.00354245501987, 74.8500000178814, -442.060704741793)
-[15:27:49] [Async Chat Thread - #8/INFO]: Polish_Gamer08 > kenvix destroy my home
-[15:27:54] [Async Chat Thread - #8/INFO]: Polish_Gamer08 > help
-[15:27:57] [Server thread/INFO]: MartinNaj issued server command: /tp Polish_Gamer08
-[15:27:57] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to Polish_Gamer08]
-[15:27:57] [Server thread/INFO]: [EntityTrackerFixer] Untracked 63 entities in world
-[15:28:01] [Server thread/INFO]: peepega issued server command: /
-[15:28:10] [Server thread/INFO]: MartinNaj issued server command: /gamemode survival
-[15:28:10] [Server thread/INFO]: [MartinNaj: Set own game mode to Survival Mode]
-[15:28:18] [Server thread/INFO]: MartinNaj issued server command: /tp Polish_Gamer08 MartinNaj
-[15:28:18] [Server thread/INFO]: [MartinNaj: Teleported Polish_Gamer08 to MartinNaj]
-[15:28:28] [Server thread/INFO]: [EntityTrackerFixer] Untracked 60 entities in world
-[15:28:29] [Async Chat Thread - #8/INFO]: Polish_Gamer08 > he takes my items
-[15:28:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14700ms or 294 ticks behind
-[15:28:42] [Async Chat Thread - #8/INFO]: peepega > Martin?
-[15:28:44] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 1.0860459374999891
-[15:28:44] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 1.0281021175696594
-[15:28:44] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.9970975348000763
-[15:28:44] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.9805076007247635
-[15:28:44] [Server thread/WARN]: Horse (vehicle of _Baltyk) moved wrongly! 0.9716306577686566
-[15:28:46] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > ill take them off him when he comes back
-[15:28:49] [Server thread/INFO]: MartinNaj issued server command: /msg peepega yeah
-[15:28:49] [Async Chat Thread - #8/INFO]: peepega > you have carrots?
-[15:28:55] [Server thread/INFO]: [EntityTrackerFixer] Untracked 72 entities in world
-[15:29:11] [Async Chat Thread - #8/INFO]: Polish_Gamer08 > omg
-[15:29:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12318ms or 246 ticks behind
-[15:29:18] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > what?
-[15:29:21] [Async Chat Thread - #8/INFO]: §xCzechify §xMartinNaj > i dont have carrots
-[15:29:26] [Async Chat Thread - #8/INFO]: peepega > ok xd
-[15:29:26] [Server thread/INFO]: [EntityTrackerFixer] Untracked 84 entities in world
-[15:29:29] [Async Chat Thread - #8/INFO]: Polish_Gamer08 > i hate him
-[15:29:55] [Server thread/INFO]: [EntityTrackerFixer] Untracked 68 entities in world
-[15:29:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15509ms or 310 ticks behind
-[15:30:23] [Server thread/INFO]: [EntityTrackerFixer] Untracked 54 entities in world
-[15:30:39] [Async Chat Thread - #9/INFO]: Polish_Gamer08 > can you give me a buckets with lava
-[15:30:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11291ms or 225 ticks behind
-[15:30:50] [Async Chat Thread - #9/INFO]: _Baltyk > go to the nether
-[15:30:51] [Server thread/INFO]: [EntityTrackerFixer] Untracked 67 entities in world
-[15:30:55] [Server thread/INFO]: peepega issued server command: /
-[15:30:59] [Async Chat Thread - #9/INFO]: Polish_Gamer08 > nie mam nic
-[15:31:03] [Async Chat Thread - #9/INFO]: _Baltyk > i poza tym jesteś 2000 kratek dalej
-[15:31:17] [Async Chat Thread - #9/INFO]: _Baltyk > i okradłeś nas ze zbroji
-[15:31:19] [Server thread/INFO]: [EntityTrackerFixer] Untracked 59 entities in world
-[15:31:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11734ms or 234 ticks behind
-[15:31:23] [Async Chat Thread - #9/INFO]: Polish_Gamer08 > kenvix mi wszystko zniszczył\s
-[15:31:27] [Async Chat Thread - #9/INFO]: _Baltyk > i nie oddałeś dalej kawałków netherytu
-[15:31:30] [Async Chat Thread - #9/INFO]: Polish_Gamer08 > i przeprosiłem
-[15:31:39] [Async Chat Thread - #9/INFO]: peepega > no wlaśnie
-[15:31:48] [Async Chat Thread - #9/INFO]: peepega > nie oddaleś
-[15:31:50] [Server thread/INFO]: [EntityTrackerFixer] Untracked 75 entities in world
-[15:31:56] [Async Chat Thread - #9/INFO]: Polish_Gamer08 > moge oddaać
-[15:32:01] [Async Chat Thread - #9/INFO]: _Baltyk > o oddaj
-[15:32:04] [Async Chat Thread - #9/INFO]: peepega > to oddaj
-[15:32:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17686ms or 353 ticks behind
-[15:32:22] [Server thread/INFO]: [EntityTrackerFixer] Untracked 93 entities in world
-[15:32:52] [Server thread/INFO]: [EntityTrackerFixer] Untracked 76 entities in world
-[15:32:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17475ms or 349 ticks behind
-[15:33:08] [Server thread/INFO]: MartinNaj issued server command: /tp Polish_Gamer08
-[15:33:08] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to Polish_Gamer08]
-[15:33:14] [Server thread/INFO]: MartinNaj issued server command: /tp Polish_Gamer08
-[15:33:14] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to Polish_Gamer08]
-[15:33:21] [Async Chat Thread - #10/INFO]: §xCzechify §xMartinNaj > fixed it
-[15:33:23] [Server thread/INFO]: [EntityTrackerFixer] Untracked 70 entities in world
-[15:33:35] [Async Chat Thread - #10/INFO]: §xCzechify §xMartinNaj > what is this?
-[15:33:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12323ms or 246 ticks behind
-[15:33:41] [Server thread/INFO]: peepega issued server command: /
-[15:33:42] [Server thread/INFO]: MartinNaj issued server command: /gamemode spectator
-[15:33:42] [Server thread/INFO]: [MartinNaj: Set own game mode to Spectator Mode]
-[15:33:42] [Async Chat Thread - #10/INFO]: _Baltyk > #MartinIsCheater
-[15:33:45] [Server thread/INFO]: peepega issued server command: /
-[15:33:49] [Server thread/INFO]: [EntityTrackerFixer] Untracked 77 entities in world
-[15:33:51] [Async Chat Thread - #10/INFO]: Polish_Gamer08 > what
-[15:34:03] [Server thread/INFO]: MartinNaj issued server command: /tp 176 33 -172
-[15:34:03] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to 176.5, 33.0, -171.5]
-[15:34:15] [Async Chat Thread - #10/INFO]: _Baltyk > Russian_Gamer08
-[15:34:20] [Server thread/INFO]: [EntityTrackerFixer] Untracked 133 entities in world
-[15:34:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14906ms or 298 ticks behind
-[15:34:30] [Server thread/INFO]: peepega issued server command: /
-[15:34:32] [Async Chat Thread - #10/INFO]: §xCzechify §xMartinNaj > i dont cheat lmao
-[15:34:38] [Server thread/INFO]: MartinNaj issued server command: /tp _Baltyk
-[15:34:38] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to _Baltyk]
-[15:34:48] [Async Chat Thread - #10/INFO]: _Baltyk > ok tp me to peepega pls
-[15:34:48] [Async Chat Thread - #10/INFO]: §xCzechify §xMartinNaj > nice mine _Baltyk
-[15:34:51] [Server thread/INFO]: [EntityTrackerFixer] Untracked 47 entities in world
-[15:35:02] [Async Chat Thread - #10/INFO]: §xCzechify §xMartinNaj > dont dig straight down...
-[15:35:06] [Async Chat Thread - #10/INFO]: Polish_Gamer08 > martin tp me to Baltyk
-[15:35:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13553ms or 271 ticks behind
-[15:35:12] [Async Chat Thread - #10/INFO]: peepega > nooon
-[15:35:16] [Async Chat Thread - #10/INFO]: _Baltyk > PEEPEGA DIG THIS
-[15:35:19] [Server thread/INFO]: [EntityTrackerFixer] Untracked 27 entities in world
-[15:35:22] [Async Chat Thread - #10/INFO]: §xCzechify §xMartinNaj > did what?
-[15:35:25] [Async Chat Thread - #10/INFO]: Polish_Gamer08 > chcem wam dać ity
-[15:35:34] [Server thread/INFO]: MartinNaj issued server command: /tp peepega
-[15:35:34] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to peepega]
-[15:35:35] [Async Chat Thread - #10/INFO]: _Baltyk > dig
-[15:35:43] [Async Chat Thread - #10/INFO]: peepega > zw
-[15:35:49] [Server thread/INFO]: [EntityTrackerFixer] Untracked 113 entities in world
-[15:35:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15247ms or 304 ticks behind
-[15:36:19] [Server thread/INFO]: [EntityTrackerFixer] Untracked 87 entities in world
-[15:36:24] [Server thread/INFO]: MartinNaj issued server command: /msg _Baltyk you gonna burn my house down then?
-[15:36:26] [Async Chat Thread - #10/INFO]: peepega > jj
-[15:36:34] [Server thread/INFO]: MartinNaj issued server command: /time set day
-[15:36:34] [Server thread/INFO]: [MartinNaj: Set the time to 1000]
-[15:36:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12440ms or 248 ticks behind
-[15:36:37] [Server thread/INFO]: _Baltyk issued server command: /msg MartinNaj i cant
-[15:36:42] [Server thread/INFO]: MartinNaj issued server command: /msg _Baltyk why not?
-[15:36:47] [Server thread/INFO]: [EntityTrackerFixer] Untracked 63 entities in world
-[15:36:53] [Server thread/INFO]: _Baltyk issued server command: /msg MartinNaj fire not working
-[15:37:00] [Server thread/INFO]: MartinNaj issued server command: /msg _Baltyk ill turn fire on then
-[15:37:09] [Server thread/INFO]: MartinNaj issued server command: /gamerule doFireTick true
-[15:37:09] [Server thread/INFO]: [MartinNaj: Gamerule doFireTick is now set to: true]
-[15:37:11] [Async Chat Thread - #10/INFO]: §xCzechify §xMartinNaj > dibe]
-[15:37:12] [Async Chat Thread - #10/INFO]: §xCzechify §xMartinNaj > done
-[15:37:15] [Server thread/INFO]: [EntityTrackerFixer] Untracked 67 entities in world
-[15:37:18] [Async Chat Thread - #10/INFO]: Polish_Gamer08 > martin tp me to Baltyk
-[15:37:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13957ms or 279 ticks behind
-[15:37:22] [Async Chat Thread - #10/INFO]: Polish_Gamer08 > pls
-[15:37:24] [Server thread/INFO]: MartinNaj issued server command: /tp Polish_Gamer08 _Baltyk
-[15:37:24] [Server thread/INFO]: [MartinNaj: Teleported Polish_Gamer08 to _Baltyk]
-[15:37:27] [Server thread/INFO]: Polish_Gamer08 was slain by _Baltyk
-[15:37:31] [Async Chat Thread - #10/INFO]: peepega > xdddd
-[15:37:34] [Server thread/INFO]: MartinNaj issued server command: /gamemode survival
-[15:37:34] [Server thread/INFO]: [MartinNaj: Set own game mode to Survival Mode]
-[15:37:40] [Async Chat Thread - #10/INFO]: Polish_Gamer08 > wywaliłem ci itemy
-[15:37:40] [Server thread/INFO]: _Baltyk lost connection: Disconnected
-[15:37:40] [Server thread/INFO]: _Baltyk left the game
-[15:37:42] [Server thread/INFO]: [EntityTrackerFixer] Untracked 100 entities in world
-[15:37:45] [Server thread/INFO]: MartinNaj issued server command: /gamemode spectator
-[15:37:45] [Server thread/INFO]: [MartinNaj: Set own game mode to Spectator Mode]
-[15:37:52] [User Authenticator #10/INFO]: UUID of player _Baltyk is ca518554-5b75-35fc-8a55-8510b1cd32d8
-[15:37:52] [Server thread/INFO]: MartinNaj issued server command: /gamerule doFireTick false
-[15:37:52] [Server thread/INFO]: [MartinNaj: Gamerule doFireTick is now set to: false]
-[15:37:52] [Server thread/INFO]: _Baltyk joined the game
-[15:37:52] [Server thread/INFO]: _Baltyk[/51.89.81.59:50739] logged in with entity id 16962 at ([world]156.02930583824616, 74.0, -464.0712549610619)
-[15:37:58] [Server thread/INFO]: peepega issued server command: /
-[15:37:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9957ms or 199 ticks behind
-[15:38:09] [Server thread/INFO]: [EntityTrackerFixer] Untracked 50 entities in world
-[15:38:10] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg _Baltyk wywaliłem ci ity tam
-[15:38:29] [Async Chat Thread - #10/INFO]: _Baltyk > nie chcialem zeby kordy mial
-[15:38:36] [Server thread/INFO]: [EntityTrackerFixer] Untracked 61 entities in world
-[15:38:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10441ms or 208 ticks behind
-[15:39:04] [Server thread/INFO]: [EntityTrackerFixer] Untracked 39 entities in world
-[15:39:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11542ms or 230 ticks behind
-[15:39:32] [Server thread/INFO]: [EntityTrackerFixer] Untracked 60 entities in world
-[15:40:02] [Server thread/INFO]: [EntityTrackerFixer] Untracked 92 entities in world
-[15:40:05] [Async Chat Thread - #11/INFO]: Polish_Gamer08 > ok
-[15:40:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17823ms or 356 ticks behind
-[15:40:28] [Server thread/INFO]: peepega issued server command: /
-[15:40:31] [Server thread/INFO]: _Baltyk issued server command: /msg Polish_Gamer08 dzięki ale nie możesz znami grać
-[15:40:33] [Server thread/INFO]: [EntityTrackerFixer] Untracked 95 entities in world
-[15:40:37] [Async Chat Thread - #11/INFO]: Polish_Gamer08 > ok
-[15:40:43] [Async Chat Thread - #11/INFO]: Polish_Gamer08 > reszty nie mam
-[15:40:46] [Server thread/INFO]: MartinNaj issued server command: /tp _Baltyk
-[15:40:46] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to _Baltyk]
-[15:40:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12024ms or 240 ticks behind
-[15:40:57] [Server thread/INFO]: MartinNaj issued server command: /tp mii
-[15:40:59] [Server thread/INFO]: MartinNaj issued server command: /tp MiniKlick
-[15:40:59] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to MiniKlick]
-[15:41:01] [Async Chat Thread - #11/INFO]: _Baltyk > reszty nie musisz
-[15:41:02] [Server thread/INFO]: [EntityTrackerFixer] Untracked 71 entities in world
-[15:41:15] [Async Chat Thread - #11/INFO]: peepega > dzk
-[15:41:48] [Server thread/INFO]: [EntityTrackerFixer] Untracked 126 entities in world
-[15:41:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31010ms or 620 ticks behind
-[15:42:05] [Async Chat Thread - #11/INFO]: _Baltyk > why you spectating and try to kill me you cheating bro
-[15:42:18] [Server thread/INFO]: [EntityTrackerFixer] Untracked 93 entities in world
-[15:42:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14730ms or 294 ticks behind
-[15:42:49] [Server thread/INFO]: [EntityTrackerFixer] Untracked 90 entities in world
-[15:43:09] [Server thread/INFO]: peepega issued server command: /
-[15:43:25] [Server thread/INFO]: [EntityTrackerFixer] Untracked 124 entities in world
-[15:43:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21884ms or 437 ticks behind
-[15:43:55] [Async Chat Thread - #12/INFO]: Polish_Gamer08 > martin
-[15:43:59] [Async Chat Thread - #12/INFO]: §xCzechify §xMartinNaj > yes
-[15:43:59] [Server thread/INFO]: [EntityTrackerFixer] Untracked 87 entities in world
-[15:44:08] [Server thread/INFO]: MartinNaj issued server command: /msg _Baltyk you killed polish gamer for no reason lol
-[15:44:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21386ms or 427 ticks behind
-[15:44:23] [Async Chat Thread - #12/INFO]: Polish_Gamer08 > can i destroy Kenvix home becouse he destroy mu house
-[15:44:31] [Server thread/INFO]: [EntityTrackerFixer] Untracked 77 entities in world
-[15:44:32] [Server thread/INFO]: MartinNaj issued server command: /msg @a if we all stop griefing, this server could become a community where people dont hate each other
-[15:44:44] [Server thread/INFO]: MartinNaj issued server command: /msg Polish_Gamer08 if you dont destroy it, i can warn him
-[15:44:49] [Server thread/INFO]: _Baltyk issued server command: /msg peepega you tp polish gamer but i dont respect that
-[15:44:50] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj ok
-[15:45:01] [Server thread/INFO]: [EntityTrackerFixer] Untracked 97 entities in world
-[15:45:01] [Server thread/INFO]: MartinNaj issued server command: /msg Polish_Gamer08 just dont do anything, hell be warned, and next time itll be a ban
-[15:45:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14827ms or 296 ticks behind
-[15:45:15] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj ok
-[15:45:21] [Server thread/INFO]: _Baltyk issued server command: /msg MartinNaj he give me my stuff back
-[15:45:35] [Server thread/INFO]: [EntityTrackerFixer] Untracked 63 entities in world
-[15:45:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20169ms or 403 ticks behind
-[15:46:06] [Server thread/INFO]: [EntityTrackerFixer] Untracked 139 entities in world
-[15:46:34] [Server thread/INFO]: [EntityTrackerFixer] Untracked 60 entities in world
-[15:46:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12317ms or 246 ticks behind
-[15:47:04] [Server thread/INFO]: [EntityTrackerFixer] Untracked 99 entities in world
-[15:47:06] [Server thread/INFO]: _Baltyk issued server command: /msg peepega you tp polish gamer but i dont respect that (i send this to wrong person lmao)
-[15:47:17] [Server thread/INFO]: MartinNaj issued server command: /msg _Baltyk what stuff?
-[15:47:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15723ms or 314 ticks behind
-[15:47:23] [Server thread/INFO]: _Baltyk issued server command: /msg MartinNaj you tp polish gamer but i dont respect that (i send this to wrong person lmao)
-[15:47:34] [Server thread/INFO]: [EntityTrackerFixer] Untracked 138 entities in world
-[15:47:44] [Server thread/INFO]: peepega issued server command: /
-[15:48:02] [Server thread/INFO]: [EntityTrackerFixer] Untracked 63 entities in world
-[15:48:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13350ms or 267 ticks behind
-[15:48:20] [Server thread/INFO]: _Baltyk issued server command: /msg MartinNaj 2 netherite scrap
-[15:48:33] [Server thread/INFO]: [EntityTrackerFixer] Untracked 77 entities in world
-[15:48:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15770ms or 315 ticks behind
-[15:49:04] [Server thread/INFO]: [EntityTrackerFixer] Untracked 91 entities in world
-[15:49:41] [Server thread/INFO]: [EntityTrackerFixer] Untracked 62 entities in world
-[15:49:43] [Server thread/INFO]: MartinNaj issued server command: /data get entity MiniKlick Inventory
-[15:49:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21974ms or 439 ticks behind
-[15:50:03] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj he insults me on discord
-[15:50:06] [Server thread/INFO]: [EntityTrackerFixer] Untracked 78 entities in world
-[15:50:16] [Server thread/INFO]: MartinNaj issued server command: /msg Polish_Gamer08 send me screenshots
-[15:50:20] [Server thread/INFO]: MartinNaj issued server command: /msg Polish_Gamer08 on discord
-[15:50:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9872ms or 197 ticks behind
-[15:50:33] [Server thread/INFO]: [EntityTrackerFixer] Untracked 48 entities in world
-[15:50:39] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj ok but he write in polish
-[15:50:51] [Async Chat Thread - #13/INFO]: _Baltyk > DOREIME
-[15:50:55] [Async Chat Thread - #13/INFO]: _Baltyk > DORIME
-[15:51:00] [Server thread/INFO]: [EntityTrackerFixer] Untracked 68 entities in world
-[15:51:01] [Server thread/INFO]: MartinNaj issued server command: /msg Polish_Gamer08 thats fine, just send them to me
-[15:51:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9869ms or 197 ticks behind
-[15:51:14] [Async Chat Thread - #13/INFO]: _Baltyk > AMENO AMENO
-[15:51:24] [Async Chat Thread - #13/INFO]: _Baltyk > LATIRNE
-[15:51:26] [Server thread/INFO]: [EntityTrackerFixer] Untracked 66 entities in world
-[15:51:30] [Async Chat Thread - #13/INFO]: _Baltyk > LATIRNEMKO
-[15:51:36] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj i send
-[15:51:40] [Async Chat Thread - #13/INFO]: peepega > AMENOOO
-[15:51:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9396ms or 187 ticks behind
-[15:51:53] [Server thread/INFO]: [EntityTrackerFixer] Untracked 52 entities in world
-[15:51:53] [Async Chat Thread - #13/INFO]: Polish_Gamer08 > sleep
-[15:51:53] [Async Chat Thread - #13/INFO]: _Baltyk > IMERE IMERE
-[15:51:58] [Async Chat Thread - #13/INFO]: _Baltyk > LATIRNE
-[15:52:04] [Async Chat Thread - #13/INFO]: peepega > OOO
-[15:52:07] [Async Chat Thread - #13/INFO]: peepega > DORIMEE
-[15:52:27] [Async Chat Thread - #13/INFO]: _Baltyk > AMENOO
-[15:52:29] [Server thread/INFO]: [EntityTrackerFixer] Untracked 75 entities in world
-[15:52:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19045ms or 380 ticks behind
-[15:52:34] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj do you see that
-[15:52:55] [Server thread/INFO]: [EntityTrackerFixer] Untracked 58 entities in world
-[15:53:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23807ms or 476 ticks behind
-[15:53:26] [Server thread/INFO]: MartinNaj issued server command: /msg Polish_Gamer08 warned him
-[15:53:37] [Server thread/INFO]: [EntityTrackerFixer] Untracked 54 entities in world
-[15:53:38] [Server thread/INFO]: MartinNaj issued server command: /time set day
-[15:53:38] [Server thread/INFO]: [MartinNaj: Set the time to 1000]
-[15:53:48] [Server thread/INFO]: MartinNaj issued server command: /time add -100
-[15:53:50] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
-[15:53:50] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
-[15:53:51] [Async Chat Thread - #14/INFO]: peepega > AMENO
-[15:53:54] [Async Chat Thread - #14/INFO]: peepega > AMENO
-[15:54:04] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj ok
-[15:54:04] [Async Chat Thread - #14/INFO]: peepega > LATIRENE
-[15:54:04] [Server thread/INFO]: [EntityTrackerFixer] Untracked 69 entities in world
-[15:54:06] [Async Chat Thread - #14/INFO]: _Baltyk > AMENO
-[15:54:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12286ms or 245 ticks behind
-[15:54:34] [Server thread/INFO]: [EntityTrackerFixer] Untracked 100 entities in world
-[15:54:44] [Server thread/INFO]: MartinNaj issued server command: /gamemode creative
-[15:54:44] [Server thread/INFO]: [MartinNaj: Set own game mode to Creative Mode]
-[15:54:50] [Server thread/INFO]: MartinNaj issued server command: /gamemode spectator
-[15:54:50] [Server thread/INFO]: [MartinNaj: Set own game mode to Spectator Mode]
-[15:54:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13320ms or 266 ticks behind
-[15:55:03] [Server thread/INFO]: [EntityTrackerFixer] Untracked 72 entities in world
-[15:55:14] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj i warned him and I am 12
-[15:55:25] [Server thread/INFO]: MartinNaj issued server command: /msg Polish_Gamer08 how old is he?
-[15:55:29] [Async Chat Thread - #15/INFO]: peepega > Martin?
-[15:55:33] [Async Chat Thread - #15/INFO]: Polish_Gamer08 > 12
-[15:55:34] [Server thread/INFO]: MartinNaj issued server command: /msg peepega yeah
-[15:55:38] [Async Chat Thread - #15/INFO]: peepega > AMENO
-[15:55:39] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj 12
-[15:55:41] [Async Chat Thread - #15/INFO]: peepega > AMENO
-[15:55:44] [Server thread/INFO]: MartinNaj issued server command: /msg Polish_Gamer08 okay
-[15:55:47] [Async Chat Thread - #15/INFO]: §xCzechify §xMartinNaj > okay
-[15:55:49] [Server thread/INFO]: [EntityTrackerFixer] Untracked 100 entities in world
-[15:55:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31746ms or 634 ticks behind
-[15:55:52] [Async Chat Thread - #15/INFO]: _Baltyk > AMENO
-[15:55:54] [Async Chat Thread - #15/INFO]: _Baltyk > AMENO
-[15:55:55] [Async Chat Thread - #15/INFO]: _Baltyk > AMENO
-[15:55:56] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj or 13
-[15:56:06] [Async Chat Thread - #15/INFO]: peepega > LATIRENEE
-[15:56:12] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj i dont know
-[15:56:17] [Server thread/INFO]: MartinNaj issued server command: /gamemode sru
-[15:56:19] [Server thread/INFO]: [EntityTrackerFixer] Untracked 83 entities in world
-[15:56:20] [Server thread/INFO]: MartinNaj issued server command: /gamemode creative
-[15:56:20] [Server thread/INFO]: [MartinNaj: Set own game mode to Creative Mode]
-[15:56:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14391ms or 287 ticks behind
-[15:56:47] [Server thread/INFO]: _Baltyk lost connection: Disconnected
-[15:56:48] [Server thread/INFO]: _Baltyk left the game
-[15:56:51] [Server thread/INFO]: [EntityTrackerFixer] Untracked 83 entities in world
-[15:56:54] [User Authenticator #11/INFO]: UUID of player _Baltyk is ca518554-5b75-35fc-8a55-8510b1cd32d8
-[15:56:54] [Server thread/INFO]: _Baltyk joined the game
-[15:56:54] [Server thread/INFO]: _Baltyk[/51.195.87.133:52845] logged in with entity id 20760 at ([world]133.31706448595057, 74.0, -448.4966258931033)
-[15:57:05] [Async Chat Thread - #15/INFO]: peepega > AMENO
-[15:57:06] [Async Chat Thread - #15/INFO]: peepega > AMENO
-[15:57:08] [Async Chat Thread - #15/INFO]: peepega > LATIRENEE
-[15:57:17] [Async Chat Thread - #15/INFO]: peepega > DORIMEE
-[15:57:21] [Server thread/INFO]: [EntityTrackerFixer] Untracked 53 entities in world
-[15:57:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17617ms or 352 ticks behind
-[15:57:52] [Server thread/INFO]: [EntityTrackerFixer] Untracked 79 entities in world
-[15:57:52] [Server thread/INFO]: [EntityTrackerFixer] Untracked 50 entities in world_nether
-[15:58:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18487ms or 369 ticks behind
-[15:58:25] [Server thread/INFO]: [EntityTrackerFixer] Untracked 37 entities in world
-[15:58:25] [Server thread/INFO]: [EntityTrackerFixer] Untracked 30 entities in world_nether
-[15:58:58] [Server thread/INFO]: [EntityTrackerFixer] Untracked 42 entities in world
-[15:58:58] [Server thread/INFO]: [EntityTrackerFixer] Untracked 61 entities in world_nether
-[15:59:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18484ms or 369 ticks behind
-[15:59:04] [Server thread/INFO]: peepega has made the advancement [A Terrible Fortress]
-[15:59:09] [Server thread/INFO]: MartinNaj issued server command: /gamemode spectator
-[15:59:09] [Server thread/INFO]: [MartinNaj: Set own game mode to Spectator Mode]
-[15:59:11] [Server thread/INFO]: MartinNaj issued server command: /tp peepega
-[15:59:11] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to peepega]
-[15:59:11] [Async Chat Thread - #16/INFO]: peepega > AMENO
-[15:59:12] [Server thread/INFO]: MartinNaj has made the advancement [A Terrible Fortress]
-[15:59:30] [Server thread/INFO]: [EntityTrackerFixer] Untracked 63 entities in world
-[15:59:30] [Server thread/INFO]: [EntityTrackerFixer] Untracked 47 entities in world_nether
-[15:59:33] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj so what i must do
-[15:59:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18137ms or 362 ticks behind
-[15:59:51] [Server thread/INFO]: MartinNaj issued server command: /gamemode spectator
-[16:00:01] [Server thread/INFO]: [EntityTrackerFixer] Untracked 47 entities in world
-[16:00:01] [Server thread/INFO]: [EntityTrackerFixer] Untracked 26 entities in world_nether
-[16:00:10] [Server thread/INFO]: peepega has made the advancement [Into Fire]
-[16:00:13] [Server thread/INFO]: MartinNaj issued server command: /tp peepega
-[16:00:13] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to peepega]
-[16:00:30] [Server thread/INFO]: [EntityTrackerFixer] Untracked 49 entities in world
-[16:00:30] [Server thread/INFO]: [EntityTrackerFixer] Untracked 22 entities in world_nether
-[16:00:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13150ms or 263 ticks behind
-[16:00:44] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj you banned him
-[16:00:50] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj ???
-[16:00:51] [Server thread/INFO]: MartinNaj issued server command: /msg Polish_Gamer08 no i havent, i warned him
-[16:00:54] [Server thread/INFO]: MartinNaj issued server command: /tp Polish_Gamer08
-[16:00:54] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to Polish_Gamer08]
-[16:00:59] [Server thread/INFO]: [EntityTrackerFixer] Untracked 29 entities in world
-[16:00:59] [Server thread/INFO]: [EntityTrackerFixer] Untracked 22 entities in world_nether
-[16:01:00] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj ok
-[16:01:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14888ms or 297 ticks behind
-[16:01:18] [Async Chat Thread - #17/INFO]: §xCzechify §xMartinNaj > is that his base?
-[16:01:27] [Server thread/INFO]: [EntityTrackerFixer] Untracked 40 entities in world
-[16:01:27] [Server thread/INFO]: [EntityTrackerFixer] Untracked 22 entities in world_nether
-[16:01:42] [Server thread/INFO]: MartinNaj issued server command: /msg Polish_Gamer08 is that his base?
-[16:01:49] [Server thread/INFO]: MartinNaj issued server command: /tp Polish_Gamer08 MartinNaj
-[16:01:49] [Server thread/INFO]: [MartinNaj: Teleported Polish_Gamer08 to MartinNaj]
-[16:01:54] [Server thread/INFO]: [EntityTrackerFixer] Untracked 38 entities in world
-[16:01:54] [Server thread/INFO]: [EntityTrackerFixer] Untracked 9 entities in world_nether
-[16:01:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9047ms or 180 ticks behind
-[16:01:59] [Server thread/INFO]: _Baltyk has made the advancement [Into Fire]
-[16:02:02] [Server thread/INFO]: MartinNaj issued server command: /msg Polish_Gamer08 whos base is this?
-[16:02:21] [Server thread/INFO]: [EntityTrackerFixer] Untracked 35 entities in world
-[16:02:21] [Server thread/INFO]: [EntityTrackerFixer] Untracked 13 entities in world_nether
-[16:02:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11264ms or 225 ticks behind
-[16:02:49] [Server thread/INFO]: [EntityTrackerFixer] Untracked 23 entities in world
-[16:02:49] [Server thread/INFO]: [EntityTrackerFixer] Untracked 14 entities in world_nether
-[16:02:52] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj tp me and i show you his base
-[16:03:21] [Server thread/INFO]: [EntityTrackerFixer] Untracked 78 entities in world
-[16:03:21] [Server thread/INFO]: [EntityTrackerFixer] Untracked 22 entities in world_nether
-[16:03:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18833ms or 376 ticks behind
-[16:03:55] [Server thread/INFO]: [EntityTrackerFixer] Untracked 89 entities in world
-[16:03:55] [Server thread/INFO]: [EntityTrackerFixer] Untracked 57 entities in world_nether
-[16:04:08] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj tp to me and i show you his base
-[16:04:13] [Server thread/INFO]: MartinNaj issued server command: /tp Polish_Gamer08
-[16:04:13] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to Polish_Gamer08]
-[16:04:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18175ms or 363 ticks behind
-[16:04:20] [Async Chat Thread - #18/INFO]: §xCzechify §xMartinNaj > im here
-[16:04:27] [Server thread/INFO]: [EntityTrackerFixer] Untracked 119 entities in world
-[16:04:27] [Server thread/INFO]: [EntityTrackerFixer] Untracked 33 entities in world_nether
-[16:04:32] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj ok
-[16:04:36] [Async Chat Thread - #18/INFO]: §xCzechify §xMartinNaj > show me
-[16:04:40] [Async Chat Thread - #18/INFO]: Polish_Gamer08 > go
-[16:04:52] [Async Chat Thread - #18/INFO]: _Baltyk > tp me to peepega now
-[16:04:57] [Server thread/INFO]: MartinNaj issued server command: /tp _Baltyk peepega
-[16:04:57] [Server thread/INFO]: [MartinNaj: Teleported _Baltyk to peepega]
-[16:05:03] [Server thread/INFO]: [EntityTrackerFixer] Untracked 100 entities in world
-[16:05:03] [Server thread/INFO]: [EntityTrackerFixer] Untracked 18 entities in world_nether
-[16:05:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21726ms or 434 ticks behind
-[16:05:07] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj there are his base
-[16:05:13] [Async Chat Thread - #18/INFO]: §xCzechify §xMartinNaj > i see
-[16:05:26] [Async Chat Thread - #18/INFO]: _Baltyk > ?????????
-[16:05:32] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj his got base with my friends
-[16:05:33] [Async Chat Thread - #18/INFO]: peepega > AMENO
-[16:05:35] [Async Chat Thread - #18/INFO]: peepega > AMENO
-[16:05:36] [Async Chat Thread - #18/INFO]: §xCzechify §xMartinNaj > ?
-[16:05:39] [Server thread/INFO]: [EntityTrackerFixer] Untracked 477 entities in world
-[16:05:40] [Async Chat Thread - #18/INFO]: peepega > LATIRENEE
-[16:05:45] [Async Chat Thread - #18/INFO]: _Baltyk > AMENO AMENO
-[16:05:46] [Async Chat Thread - #18/INFO]: peepega > DORIMEE
-[16:05:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20027ms or 400 ticks behind
-[16:05:57] [Async Chat Thread - #18/INFO]: peepega > DORIMEE
-[16:06:08] [Server thread/INFO]: [EntityTrackerFixer] Untracked 63 entities in world
-[16:06:11] [Async Chat Thread - #18/INFO]: §xCzechify §xMartinNaj > polish
-[16:06:13] [Async Chat Thread - #18/INFO]: §xCzechify §xMartinNaj > if you wanna do something
-[16:06:15] [Async Chat Thread - #18/INFO]: §xCzechify §xMartinNaj > break that bar
-[16:06:20] [Async Chat Thread - #18/INFO]: §xCzechify §xMartinNaj > break the iron bars
-[16:06:21] [Async Chat Thread - #18/INFO]: Polish_Gamer08 > what
-[16:06:21] [Server thread/INFO]: _Baltyk issued server command: /msg peepega chodz na dc
-[16:06:26] [Server thread/INFO]: MartinNaj issued server command: /gamerule doFireTick true
-[16:06:26] [Server thread/INFO]: [MartinNaj: Gamerule doFireTick is now set to: true]
-[16:06:32] [Async Chat Thread - #18/INFO]: §xCzechify §xMartinNaj > break it
-[16:06:34] [Async Chat Thread - #18/INFO]: Polish_Gamer08 > i can
-[16:06:35] [Async Chat Thread - #18/INFO]: §xCzechify §xMartinNaj > if you want
-[16:06:37] [Server thread/INFO]: [EntityTrackerFixer] Untracked 57 entities in world
-[16:06:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14139ms or 282 ticks behind
-[16:06:46] [Async Chat Thread - #18/INFO]: §xCzechify §xMartinNaj > wait
-[16:06:49] [Server thread/INFO]: MartinNaj issued server command: /tp Polish_Gamer08
-[16:06:49] [Server thread/INFO]: [MartinNaj: Teleported MartinNaj to Polish_Gamer08]
-[16:07:05] [Server thread/INFO]: peepega issued server command: /
-[16:07:09] [Server thread/INFO]: [EntityTrackerFixer] Untracked 60 entities in world
-[16:07:22] [Server thread/INFO]: MartinNaj issued server command: /tp Polish_Gamer08 MartinNaj
-[16:07:22] [Server thread/INFO]: [MartinNaj: Teleported Polish_Gamer08 to MartinNaj]
-[16:07:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16750ms or 335 ticks behind
-[16:07:36] [Server thread/INFO]: MartinNaj issued server command: /gamemode creative
-[16:07:36] [Server thread/INFO]: [MartinNaj: Set own game mode to Creative Mode]
-[16:07:39] [Server thread/INFO]: [EntityTrackerFixer] Untracked 64 entities in world
-[16:07:54] [Server thread/INFO]: MartinNaj issued server command: /gamemode spectator
-[16:07:54] [Server thread/INFO]: [MartinNaj: Set own game mode to Spectator Mode]
-[16:08:00] [Server thread/INFO]: MartinNaj issued server command: /gamerule doFireTick false
-[16:08:00] [Server thread/INFO]: [MartinNaj: Gamerule doFireTick is now set to: false]
-[16:08:04] [Server thread/INFO]: _Baltyk issued server command: /msg Polish_Gamer08 masz brodawki
-[16:08:10] [Server thread/INFO]: [EntityTrackerFixer] Untracked 74 entities in world
-[16:08:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15831ms or 316 ticks behind
-[16:08:13] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg MartinNaj no
-[16:08:41] [Server thread/INFO]: [EntityTrackerFixer] Untracked 73 entities in world
-[16:08:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16453ms or 329 ticks behind
-[16:09:10] [Server thread/INFO]: [EntityTrackerFixer] Untracked 51 entities in world
-[16:09:24] [Server thread/INFO]: _Baltyk issued server command: /msg MartinNaj can u give me ONE wart
-[16:09:41] [Server thread/INFO]: [EntityTrackerFixer] Untracked 74 entities in world
-[16:09:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14517ms or 290 ticks behind
-[16:09:58] [Server thread/INFO]: MartinNaj issued server command: /time set day
-[16:09:58] [Server thread/INFO]: [MartinNaj: Set the time to 1000]
-[16:10:04] [Async Chat Thread - #19/INFO]: peepega > NIEEE DORIMEEEE
-[16:10:11] [Server thread/INFO]: _Baltyk issued server command: /msg MartinNaj can u give me ONE wart
-[16:10:13] [Server thread/INFO]: _Baltyk issued server command: /msg MartinNaj can u give me ONE wart
-[16:10:14] [Server thread/INFO]: _Baltyk issued server command: /msg MartinNaj can u give me ONE wart
-[16:10:14] [Server thread/INFO]: [EntityTrackerFixer] Untracked 62 entities in world
-[16:10:14] [Server thread/INFO]: _Baltyk issued server command: /msg MartinNaj can u give me ONE wart
-[16:10:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24791ms or 495 ticks behind
-[16:10:51] [Server thread/INFO]: [EntityTrackerFixer] Untracked 69 entities in world
-[16:10:57] [Server thread/INFO]: peepega issued server command: /
-[16:11:11] [Server thread/INFO]: MartinNaj issued server command: /tp Polish_Gamer08 MartinNaj
-[16:11:11] [Server thread/INFO]: [MartinNaj: Teleported Polish_Gamer08 to MartinNaj]
-[16:11:24] [Server thread/INFO]: [EntityTrackerFixer] Untracked 109 entities in world
-[16:11:24] [Server thread/INFO]: [EntityTrackerFixer] Untracked 4 entities in world_nether
-[16:11:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22889ms or 457 ticks behind
-[16:11:35] [Server thread/INFO]: MartinNaj issued server command: /gamemode creative
-[16:11:35] [Server thread/INFO]: [MartinNaj: Set own game mode to Creative Mode]
-[16:11:47] [Server thread/INFO]: MartinNaj issued server command: /gamemode survival
-[16:11:47] [Server thread/INFO]: [MartinNaj: Set own game mode to Survival Mode]
-[16:12:06] [Server thread/INFO]: [EntityTrackerFixer] Untracked 106 entities in world
-[16:12:06] [Server thread/INFO]: [EntityTrackerFixer] Untracked 25 entities in world_nether
-[16:12:25] [Server thread/INFO]: MartinNaj issued server command: /gamemode creative
-[16:12:25] [Server thread/INFO]: [MartinNaj: Set own game mode to Creative Mode]
-[16:12:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25674ms or 513 ticks behind
-[16:12:30] [Async Chat Thread - #20/INFO]: _Baltyk > tp me to peepga
-[16:12:42] [Server thread/INFO]: [EntityTrackerFixer] Untracked 51 entities in world
-[16:12:42] [Server thread/INFO]: [EntityTrackerFixer] Untracked 8 entities in world_nether
-[16:12:48] [Server thread/INFO]: _Baltyk issued server command: /msg MartinNaj can u give me ONE wart pls i need it :C
-[16:13:07] [Async Chat Thread - #20/INFO]: _Baltyk > have someone wart
-[16:13:17] [Server thread/INFO]: [EntityTrackerFixer] Untracked 62 entities in world
-[16:13:17] [Server thread/INFO]: [EntityTrackerFixer] Untracked 13 entities in world_nether
-[16:13:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23157ms or 463 ticks behind
-[16:13:28] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg _Baltyk admin teraz mi pomaga
-[16:13:30] [Server thread/INFO]: peepega issued server command: /
-[16:13:39] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg _Baltyk zaraz cie tepnie
-[16:13:54] [Server thread/INFO]: [EntityTrackerFixer] Untracked 95 entities in world
-[16:13:54] [Server thread/INFO]: [EntityTrackerFixer] Untracked 24 entities in world_nether
-[16:13:55] [Server thread/INFO]: _Baltyk issued server command: /msg Polish_Gamer08 juz nie musi
-[16:14:03] [Server thread/INFO]: Polish_Gamer08 issued server command: /msg _Baltyk ok
-[16:14:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 39017ms or 780 ticks behind
-[16:14:43] [Server thread/INFO]: [EntityTrackerFixer] Untracked 73 entities in world
-[16:15:17] [Server thread/INFO]: [EntityTrackerFixer] Untracked 47 entities in world
-[16:15:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20190ms or 403 ticks behind
-[16:15:46] [Server thread/INFO]: [EntityTrackerFixer] Untracked 67 entities in world
-[16:16:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22034ms or 440 ticks behind
-[16:16:24] [Server thread/INFO]: [EntityTrackerFixer] Untracked 63 entities in world
-[16:16:53] [Server thread/INFO]: [EntityTrackerFixer] Untracked 54 entities in world
-[16:16:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14911ms or 298 ticks behind
-[16:17:27] [Server thread/INFO]: [EntityTrackerFixer] Untracked 133 entities in world
-[16:17:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21298ms or 425 ticks behind
-[16:18:00] [Server thread/INFO]: [EntityTrackerFixer] Untracked 93 entities in world
-[16:18:35] [Server thread/INFO]: [EntityTrackerFixer] Untracked 83 entities in world
-[16:18:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20902ms or 418 ticks behind
-[16:19:11] [Server thread/INFO]: [EntityTrackerFixer] Untracked 128 entities in world
-[16:19:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24599ms or 491 ticks behind
-[16:19:48] [Server thread/INFO]: [EntityTrackerFixer] Untracked 92 entities in world
-[16:20:24] [Server thread/INFO]: [EntityTrackerFixer] Untracked 77 entities in world
-[16:20:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28293ms or 565 ticks behind
-[16:21:02] [Server thread/INFO]: [EntityTrackerFixer] Untracked 67 entities in world
-[16:21:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21083ms or 421 ticks behind
-[16:21:36] [Server thread/INFO]: [EntityTrackerFixer] Untracked 120 entities in world
-[16:22:08] [Server thread/INFO]: [EntityTrackerFixer] Untracked 74 entities in world
-[16:22:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19099ms or 381 ticks behind
-[16:22:44] [Server thread/INFO]: [EntityTrackerFixer] Untracked 114 entities in world
-[16:23:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22807ms or 456 ticks behind
-[16:23:18] [Server thread/INFO]: [EntityTrackerFixer] Untracked 62 entities in world
-[16:23:53] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
-[16:23:53] [Server thread/INFO]: [EntityTrackerFixer] Untracked 154 entities in world
-[16:23:53] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
-[16:23:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22965ms or 459 ticks behind
-[16:24:26] [Server thread/INFO]: [EntityTrackerFixer] Untracked 77 entities in world
-[16:24:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18719ms or 374 ticks behind
-[16:24:59] [Server thread/INFO]: [EntityTrackerFixer] Untracked 105 entities in world
-[16:25:32] [Server thread/INFO]: [EntityTrackerFixer] Untracked 133 entities in world
-[16:25:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19607ms or 392 ticks behind
-[16:26:03] [Server thread/INFO]: [EntityTrackerFixer] Untracked 75 entities in world
-[16:26:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18463ms or 369 ticks behind
-[16:26:38] [Server thread/INFO]: [EntityTrackerFixer] Untracked 100 entities in world
-[16:27:09] [Server thread/INFO]: [EntityTrackerFixer] Untracked 77 entities in world
-[16:27:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18823ms or 376 ticks behind
-[16:27:42] [Server thread/INFO]: [EntityTrackerFixer] Untracked 88 entities in world
-[16:27:44] [Server thread/INFO]: MartinNaj issued server command: /time set noon
-[16:27:44] [Server thread/INFO]: [MartinNaj: Set the time to 6000]
-[16:28:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17962ms or 359 ticks behind
-[16:28:12] [Server thread/INFO]: [EntityTrackerFixer] Untracked 56 entities in world
-[16:28:45] [Server thread/INFO]: [EntityTrackerFixer] Untracked 88 entities in world
-[16:28:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19244ms or 384 ticks behind
-[16:29:20] [Server thread/INFO]: [EntityTrackerFixer] Untracked 82 entities in world
-[16:29:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18782ms or 375 ticks behind
-[16:29:52] [Server thread/INFO]: [EntityTrackerFixer] Untracked 107 entities in world
-[16:30:21] [Server thread/INFO]: MartinNaj issued server command: /weather clear
-[16:30:21] [Server thread/INFO]: [MartinNaj: Set the weather to clear]
-[16:30:24] [Server thread/INFO]: [EntityTrackerFixer] Untracked 99 entities in world
-[16:30:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19258ms or 385 ticks behind
-[16:30:56] [Server thread/INFO]: MartinNaj issued server command: /kick MartinNaj smellyl
-[16:30:56] [Server thread/INFO]: MartinNaj lost connection: smellyl
-[16:30:56] [Server thread/INFO]: MartinNaj left the game
-[16:30:56] [Server thread/INFO]: [MartinNaj: Kicked MartinNaj: smellyl]
-[16:31:00] [Server thread/INFO]: [EntityTrackerFixer] Untracked 130 entities in world
-[16:31:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20224ms or 404 ticks behind
-[16:31:28] [Server thread/INFO]: [EntityTrackerFixer] Untracked 30 entities in world
-[16:31:51] [Server thread/INFO]: Saving the game (this may take a moment!)
-[16:31:54] [Server thread/INFO]: Saved the game
-[16:31:59] [Server thread/INFO]: [EntityTrackerFixer] Untracked 42 entities in world
-[16:32:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13997ms or 279 ticks behind
-[16:32:04] [Server thread/INFO]: You whisper to peepega: WE ARE MOVING TO A NEW SERVER, PLEASE LEAVE TO ENSURE NO STUFF IS LOST
-[16:32:04] [Server thread/INFO]: You whisper to MiniKlick: WE ARE MOVING TO A NEW SERVER, PLEASE LEAVE TO ENSURE NO STUFF IS LOST
-[16:32:04] [Server thread/INFO]: You whisper to Polish_Gamer08: WE ARE MOVING TO A NEW SERVER, PLEASE LEAVE TO ENSURE NO STUFF IS LOST
-[16:32:04] [Server thread/INFO]: You whisper to _Baltyk: WE ARE MOVING TO A NEW SERVER, PLEASE LEAVE TO ENSURE NO STUFF IS LOST
-[16:32:18] [Server thread/INFO]: peepega issued server command: /
-[16:32:20] [Server thread/INFO]: You whisper to peepega: you have 30 seconds before you are kicked
-[16:32:20] [Server thread/INFO]: You whisper to MiniKlick: you have 30 seconds before you are kicked
-[16:32:20] [Server thread/INFO]: You whisper to Polish_Gamer08: you have 30 seconds before you are kicked
-[16:32:20] [Server thread/INFO]: You whisper to _Baltyk: you have 30 seconds before you are kicked
-[16:32:27] [Server thread/INFO]: [EntityTrackerFixer] Untracked 41 entities in world
-[16:32:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13067ms or 261 ticks behind
-[16:32:51] [Async Chat Thread - #21/INFO]: _Baltyk > OCO CHODZI
-[16:32:56] [Server thread/INFO]: [EntityTrackerFixer] Untracked 109 entities in world
-[16:32:58] [Async Chat Thread - #21/INFO]: Polish_Gamer08 > resetuja
-[16:33:09] [Server thread/INFO]: peepega lost connection: Server is being moved to a new server!
-[16:33:09] [Server thread/INFO]: peepega left the game
-[16:33:09] [Server thread/INFO]: Kicked peepega: Server is being moved to a new server!
-[16:33:09] [Server thread/INFO]: MiniKlick lost connection: Server is being moved to a new server!
-[16:33:09] [Server thread/INFO]: MiniKlick left the game
-[16:33:09] [Server thread/INFO]: Kicked MiniKlick: Server is being moved to a new server!
-[16:33:09] [Server thread/INFO]: Polish_Gamer08 lost connection: Server is being moved to a new server!
-[16:33:09] [Server thread/INFO]: Polish_Gamer08 left the game
-[16:33:09] [Server thread/INFO]: Kicked Polish_Gamer08: Server is being moved to a new server!
-[16:33:09] [Server thread/INFO]: _Baltyk lost connection: Server is being moved to a new server!
-[16:33:09] [Server thread/INFO]: _Baltyk left the game
-[16:33:09] [Server thread/INFO]: Kicked _Baltyk: Server is being moved to a new server!
-[16:33:11] [Server thread/INFO]: Saving the game (this may take a moment!)
-[16:33:13] [Server thread/INFO]: Saved the game
-[16:33:14] [Server thread/INFO]: Stopping the server
-[16:33:14] [Server thread/INFO]: Stopping server
-[16:33:14] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.4+f7ff984
-[16:33:14] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[16:33:14] [Server thread/INFO]: [LPC] Disabling LPC v3.1.1
-[16:33:14] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.0.2
-[16:33:14] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[16:33:14] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[16:33:14] [Server thread/INFO]: [CzechifyInfo] Disabling CzechifyInfo v1.0
-[16:33:14] [Server thread/INFO]: [AsyncWorldEdit] Disabling AsyncWorldEdit v3.8.0
-[16:33:14] [Server thread/INFO]: [AsyncWorldEdit] Unloading plugins...
-[16:33:14] [Server thread/INFO]: [AsyncWorldEdit] Disable
-[16:33:14] [Server thread/INFO]: [EntityTrackerFixer] Disabling EntityTrackerFixer v1.3.3
-[16:33:14] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.1+299386a
-[16:33:14] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[16:33:14] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.2.76
-[16:33:14] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[16:33:14] [Server thread/INFO]: [LuckPerms] Closing messaging service...
-[16:33:14] [Server thread/INFO]: [LuckPerms] Closing storage...
-[16:33:14] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Shutdown initiated...
-[16:33:14] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Shutdown completed.
-[16:33:14] [Server thread/INFO]: [LuckPerms] Goodbye!
-[16:33:14] [Server thread/INFO]: Saving players
-[16:33:14] [Server thread/INFO]: Saving worlds
-[16:33:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:33:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:33:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[16:33:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:33:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[16:33:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:33:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:33:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:33:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:33:16] [Server thread/INFO]: Flushing Chunk IO
-[16:33:16] [Server thread/INFO]: Closing Thread Pool
-[16:33:16] [Server thread/INFO]: Closing Server
+[12:40:13] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:40:13] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[12:40:14] [Worker-Main-1/INFO]: Loaded 7 recipes
+[12:40:16] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[12:40:16] [Server thread/INFO]: Loading properties
+[12:40:16] [Server thread/INFO]: This server is running Paper version git-Paper-574 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[12:40:16] [Server thread/INFO]: Debug logging is disabled
+[12:40:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:40:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:40:16] [Server thread/INFO]: Default game type: SURVIVAL
+[12:40:16] [Server thread/INFO]: Generating keypair
+[12:40:17] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[12:40:17] [Server thread/INFO]: Using epoll channel type
+[12:40:17] [Server thread/INFO]: [AsyncWorldEdit] Injector platform set to: InjectorBukkit
+[12:40:17] [Server thread/INFO]: [AsyncWorldEdit] Injecting NMS classes...
+[12:40:17] [Server thread/INFO]: [AsyncWorldEdit] Injecting WorldEdit classes...
+[12:40:18] [Server thread/WARN]: [WorldEdit] Loaded class org.primesoft.asyncworldedit.injector.injected.util.eventbus.IDispatchableEventBus from AsyncWorldEdit v3.8.2 which is not a depend, softdepend or loadbefore of this plugin.
+[12:40:18] [Server thread/INFO]: [AsyncWorldEdit] Injector Enabled
+[12:40:18] [Server thread/INFO]: [AsyncWorldEdit] New class factory set to: org.primesoft.asyncworldedit.asyncinjector.async.AsyncClassFactory
+[12:40:18] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[12:40:23] [Server thread/WARN]: Legacy plugin LoginSecurity v3.0.2 does not specify an api-version.
+[12:40:24] [Server thread/INFO]: [CzechifyHomes] Loaded language pack for Czech cs-CZ
+[12:40:24] [Server thread/INFO]: [CzechifyHomes] Loaded language pack for Polish pl-PL
+[12:40:24] [Server thread/INFO]: [CzechifyHomes] Loaded language pack for English en-GB
+[12:40:24] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.3
+[12:40:24] [Server thread/INFO]: [ANM] Loading AdvancedNMotd v9.1.1
+[12:40:24] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.1+299386a
+[12:40:24] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@21e639c6]
+[12:40:24] [Server thread/INFO]: [EntityTrackerFixer] Loading EntityTrackerFixer v1.3.3
+[12:40:24] [Server thread/INFO]: [AsyncWorldEdit] Loading AsyncWorldEdit v3.8.2
+[12:40:24] [Server thread/INFO]: [AsyncWorldEdit] Plugin installed
+[12:40:24] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.0.2
+[12:40:24] [Server thread/INFO]: [LPC] Loading LPC v3.1.1
+[12:40:24] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.4+f7ff984
+[12:40:24] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.2.2-b812
+[12:40:24] [Server thread/INFO]: [CzechifyHomes] Loading CzechifyHomes v1.3
+[12:40:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:40:24] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.3
+[12:40:25] [Server thread/INFO]:         __    
+[12:40:25] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.3
+[12:40:25] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[12:40:25] [Server thread/INFO]: 
+[12:40:25] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[12:40:25] [Server thread/INFO]: [LuckPerms] Loading storage provider... [MYSQL]
+[12:40:25] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Starting...
+[12:40:26] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Start completed.
+[12:40:26] [Server thread/INFO]: [LuckPerms] Loading messaging service... [SQL]
+[12:40:26] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[12:40:26] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[12:40:26] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2032ms)
+[12:40:26] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.1+299386a
+[12:40:26] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[12:40:27] [Server thread/WARN]: 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and block property-related functions.
+**
+** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
+**********************************************
+
+[12:40:27] [Server thread/INFO]: [AsyncWorldEdit] Enabling AsyncWorldEdit v3.8.2
+[12:40:28] [Server thread/INFO]: [AsyncWorldEdit] Platform set to Bukkit API
+[12:40:28] [Server thread/INFO]: [AsyncWorldEdit] ===================================================================================
+[12:40:28] [Server thread/INFO]: [AsyncWorldEdit] =     ___                         _       __           __    ________    ___ __   =
+[12:40:28] [Server thread/INFO]: [AsyncWorldEdit] =    /   |  _______  ______  ____| |     / /___  _____/ /___/ / ____/___/ (_) /_  =
+[12:40:28] [Server thread/INFO]: [AsyncWorldEdit] =   / /| | / ___/ / / / __ \/ ___/ | /| / / __ \/ ___/ / __  / __/ / __  / / __/  =
+[12:40:28] [Server thread/INFO]: [AsyncWorldEdit] =  / ___ |(__  ) /_/ / / / / /__ | |/ |/ / /_/ / /  / / /_/ / /___/ /_/ / / /_    =
+[12:40:28] [Server thread/INFO]: [AsyncWorldEdit] = /_/  |_/____/\__, /_/ /_/\___/ |__/|__/\____/_/  /_/\__,_/_____/\__,_/_/\__/    =
+[12:40:28] [Server thread/INFO]: [AsyncWorldEdit] =             /____/                                                              =
+[12:40:28] [Server thread/INFO]: [AsyncWorldEdit] = Author: SBPrime                                                                 =
+[12:40:28] [Server thread/INFO]: [AsyncWorldEdit] =                                ________________                                 =
+[12:40:28] [Server thread/INFO]: [AsyncWorldEdit] =                            ___/  free version  \___                             =
+[12:40:28] [Server thread/INFO]: [AsyncWorldEdit] ===================================================================================
+[12:40:28] [Server thread/INFO]: [AsyncWorldEdit] Initializing WorldEdit.
+[12:40:28] [Server thread/INFO]: [AsyncWorldEdit] No matching adapter found for Bukkit.v1_16_R3, DirectChunkAPI disabled
+[12:40:28] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] Undo cleanup started...
+[12:40:28] [Server thread/INFO]: [AsyncWorldEdit] PlotMeFix set to class org.primesoft.asyncworldedit.plotme.NullFix.
+[12:40:28] [AWE:Cron:undoCleanup/INFO]: [AsyncWorldEdit] ...undo cleanup done.
+[12:40:28] [Server thread/INFO]: [AsyncWorldEdit] Enabled
+[12:40:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:40:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:40:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:40:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:40:28] [Server thread/INFO]: Preparing level "world"
+[12:40:28] [Thread-8/INFO]: [AsyncWorldEdit] You have the latest version of the plugin.
+[12:40:28] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[12:40:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:40:28] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[12:40:28] [Server thread/INFO]: Preparing spawn area: 0%
+[12:40:29] [Server thread/INFO]: Time elapsed: 376 ms
+[12:40:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:40:29] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[12:40:29] [Server thread/INFO]: Time elapsed: 333 ms
+[12:40:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:40:29] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[12:40:29] [Server thread/INFO]: Time elapsed: 81 ms
+[12:40:29] [Server thread/INFO]: [ANM] Enabling AdvancedNMotd v9.1.1
+[12:40:29] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[12:40:29] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2569)
+[12:40:29] [Server thread/WARN]: 	at ru.namerpro.Bukkit.Utils.EasyReflection.changeStaticFinalField(EasyReflection.java:30)
+[12:40:29] [Server thread/WARN]: 	at ru.namerpro.Bukkit.ANM1164.MotdManager1164.applyMotd(MotdManager1164.java:29)
+[12:40:29] [Server thread/WARN]: 	at ru.namerpro.Bukkit.Base.Main.onEnable(Main.java:198)
+[12:40:29] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[12:40:29] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:380)
+[12:40:29] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:483)
+[12:40:29] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:501)
+[12:40:29] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:415)
+[12:40:29] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:580)
+[12:40:29] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:280)
+[12:40:29] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1055)
+[12:40:29] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:289)
+[12:40:29] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:832)
+[12:40:29] [Server thread/INFO]: 
+[12:40:29] [Server thread/INFO]: ---------------- AdvancedNMotd --------------
+[12:40:29] [Server thread/INFO]:            AdvancedNMotd is enabled!
+[12:40:29] [Server thread/INFO]: ---------------------------------------------
+[12:40:29] [Server thread/INFO]: 
+[12:40:29] [Server thread/INFO]: [EntityTrackerFixer] Enabling EntityTrackerFixer v1.3.3
+[12:40:29] [Server thread/INFO]: [EntityTrackerFixer] Setting untrack ticks to: 400
+[12:40:29] [Server thread/INFO]: [EntityTrackerFixer] Setting check frequency to: 40
+[12:40:29] [Server thread/INFO]: [EntityTrackerFixer] Setting tracking range to: 30
+[12:40:29] [Server thread/INFO]: [EntityTrackerFixer] Setting minimun TPS to: 19.5
+[12:40:29] [Server thread/INFO]: [EntityTrackerFixer] Setting enable on all worlds to: false
+[12:40:29] [Server thread/INFO]: [EntityTrackerFixer] Adding world: world
+[12:40:29] [Server thread/INFO]: [EntityTrackerFixer] Adding world: world_nether
+[12:40:29] [Server thread/INFO]: [EntityTrackerFixer] Adding world: world_the_end
+[12:40:29] [Server thread/INFO]: [EntityTrackerFixer] Setting log to console to: true
+[12:40:29] [Server thread/INFO]: [EntityTrackerFixer] Setting disable tick for untracked to: true
+[12:40:29] [Server thread/INFO]: [EntityTrackerFixer] Vault not found! using default permission system...
+[12:40:29] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.0.2*
+[12:40:29] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[12:40:29] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[12:40:29] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[12:40:29] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[12:40:30] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[12:40:30] [Server thread/INFO]: [LPC] Enabling LPC v3.1.1
+[12:40:30] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.4+f7ff984
+[12:40:30] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[12:40:30] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[12:40:30] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[12:40:30] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[12:40:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[12:40:30] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[12:40:30] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[12:40:30] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[12:40:30] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[12:40:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[12:40:30] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[12:40:30] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[12:40:30] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[12:40:30] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[12:40:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[12:40:30] [Server thread/INFO]: [WorldGuard] Loading region data...
+[12:40:31] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.2.2-b812
+[12:40:31] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.2.2-b812" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[12:40:31] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[12:40:31] [Server thread/INFO]: Preparing start region for dimension minecraft:flatland
+[12:40:31] [Server thread/INFO]: Loaded 0 spawn chunks for world flatland
+[12:40:31] [Server thread/INFO]: Time elapsed: 136 ms
+[12:40:31] [Server thread/INFO]: [WorldGuard] (flatland) TNT ignition is PERMITTED.
+[12:40:31] [Server thread/INFO]: [WorldGuard] (flatland) Lighters are PERMITTED.
+[12:40:31] [Server thread/INFO]: [WorldGuard] (flatland) Lava fire is PERMITTED.
+[12:40:31] [Server thread/INFO]: [WorldGuard] (flatland) Fire spread is UNRESTRICTED.
+[12:40:31] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'flatland'
+[12:40:31] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[12:40:31] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled!
+[12:40:31] [Server thread/INFO]: [Multiverse-Core] Version 4.2.2-b812 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[12:40:31] [Server thread/INFO]: [CzechifyHomes] Enabling CzechifyHomes v1.3
+[12:40:31] [Server thread/INFO]: [CzechifyHomes] Loading database configuration...
+[12:40:32] [Server thread/INFO]: [CzechifyHomes] Opening a database connection to jdbc:mysql://172.17.0.1:3306/s5_czechify...
+[12:40:32] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[12:40:32] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[12:40:32] [Server thread/INFO]: [CzechifyHomes] Enabled spawn module!
+[12:40:32] [Server thread/INFO]: Running delayed init tasks
+[12:40:32] [Server thread/INFO]: [AsyncWorldEdit] Loading plugins...
+[12:40:32] [Craft Scheduler Thread - 1/INFO]: 
+[12:40:32] [Craft Scheduler Thread - 1/INFO]: ------------ AdvancedNMotd Updater ----------
+[12:40:32] [Craft Scheduler Thread - 1/INFO]: You have the latest version of AdvancedNMotd!
+[12:40:32] [Craft Scheduler Thread - 1/INFO]: Current version: 9.1.1 for 1.8-1.16.x servers
+[12:40:32] [Craft Scheduler Thread - 1/INFO]: ---------------------------------------------
+[12:40:32] [Craft Scheduler Thread - 1/INFO]: 
+[12:40:33] [Server thread/INFO]: Done (16.639s)! For help, type "help"
+[12:40:33] [Server thread/INFO]: Timings Reset
+[12:40:33] [User Authenticator #1/INFO]: UUID of player MartinNaj is f4086cc6-c941-381c-bc3e-623866a53920
+[12:40:43] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-574 (MC: 1.16.5) ---
+[12:40:43] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[12:40:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:40:43] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[12:40:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:40:43] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[12:40:43] [Paper Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: RUNNABLE
+[12:40:43] [Paper Watchdog Thread/ERROR]: 	Stack:
+[12:40:43] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.SpawnerCreature.countMobs(SpawnerCreature.java:82)
+[12:40:43] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.ChunkProviderServer.tickChunks(ChunkProviderServer.java:839)
+[12:40:43] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.ChunkProviderServer.tick(ChunkProviderServer.java:767)
+[12:40:43] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.doTick(WorldServer.java:574)
+[12:40:43] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1476)
+[12:40:43] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:418)
+[12:40:43] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1328)
+[12:40:43] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1116)
+[12:40:43] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:289)
+[12:40:43] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3135/0x00000008011f6ca0.run(Unknown Source)
+[12:40:43] [Paper Watchdog Thread/ERROR]: 		java.base@15-ea/java.lang.Thread.run(Thread.java:832)
+[12:40:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:40:43] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[12:40:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:40:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12151ms or 243 ticks behind
+[12:40:45] [Server thread/INFO]: MartinNaj joined the game
+[12:40:45] [Server thread/INFO]: MartinNaj[/51.19.249.136:54825] logged in with entity id 60873 at ([world]204.96989880230268, 68.0, -30.217769250488047)
+[12:40:49] [Server thread/INFO]: [CzechifyHomes] Executed a waiting event (ID: 1617792032270, DELTA: -0.00 sec.). Current queue size: 0
+[12:41:02] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-574 (MC: 1.16.5) ---
+[12:41:02] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[12:41:02] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:41:02] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[12:41:02] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:41:02] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[12:41:02] [Paper Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: RUNNABLE
+[12:41:02] [Paper Watchdog Thread/ERROR]: 	Stack:
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.Chunk.a(Chunk.java:1041)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.World.a(World.java:1200)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.IEntityAccess.a(IEntityAccess.java:60)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityInsentient.movementTick(EntityInsentient.java:618)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityMonster.movementTick(EntityMonster.java:45)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityZombie.movementTick(EntityZombie.java:267)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.tick(EntityLiving.java:2591)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityInsentient.tick(EntityInsentient.java:378)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityZombie.tick(EntityZombie.java:237)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.entityJoinedWorld(WorldServer.java:959)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer$$Lambda$5337/0x0000000801b657a8.accept(Unknown Source)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.World.a(World.java:946)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.doTick(WorldServer.java:644)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1476)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:418)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1328)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1116)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:289)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3135/0x00000008011f6ca0.run(Unknown Source)
+[12:41:02] [Paper Watchdog Thread/ERROR]: 		java.base@15-ea/java.lang.Thread.run(Thread.java:832)
+[12:41:02] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:41:02] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[12:41:02] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:41:07] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-574 (MC: 1.16.5) ---
+[12:41:07] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[12:41:07] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:41:07] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[12:41:07] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:41:07] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[12:41:07] [Paper Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: RUNNABLE
+[12:41:07] [Paper Watchdog Thread/ERROR]: 	Stack:
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		java.base@15-ea/java.util.function.Predicate.lambda$and$0(Predicate.java:69)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		java.base@15-ea/java.util.function.Predicate$$Lambda$1644/0x0000000800dd4a48.test(Unknown Source)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.Chunk.a(Chunk.java:950)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.World.getEntities(World.java:1156)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.collideNearby(EntityLiving.java:2976)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.movementTick(EntityLiving.java:2914)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityInsentient.movementTick(EntityInsentient.java:615)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityMonster.movementTick(EntityMonster.java:45)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityZombie.movementTick(EntityZombie.java:267)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.tick(EntityLiving.java:2591)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityInsentient.tick(EntityInsentient.java:378)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityZombie.tick(EntityZombie.java:237)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.entityJoinedWorld(WorldServer.java:959)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer$$Lambda$5337/0x0000000801b657a8.accept(Unknown Source)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.World.a(World.java:946)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.doTick(WorldServer.java:644)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1476)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:418)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1328)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1116)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:289)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3135/0x00000008011f6ca0.run(Unknown Source)
+[12:41:07] [Paper Watchdog Thread/ERROR]: 		java.base@15-ea/java.lang.Thread.run(Thread.java:832)
+[12:41:07] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:41:07] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[12:41:07] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:41:12] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-574 (MC: 1.16.5) ---
+[12:41:12] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
+[12:41:12] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:41:12] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[12:41:12] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:41:12] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[12:41:12] [Paper Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: RUNNABLE
+[12:41:12] [Paper Watchdog Thread/ERROR]: 	Stack:
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.World.getType(World.java:736)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.ds(EntityLiving.java:1746)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.isClimbing(EntityLiving.java:1730)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.isCollidable(EntityLiving.java:3122)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.IEntitySelector.lambda$pushable$8(IEntitySelector.java:64)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.IEntitySelector$$Lambda$5500/0x0000000801bc0b58.test(Unknown Source)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		java.base@15-ea/java.util.function.Predicate.lambda$and$0(Predicate.java:69)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		java.base@15-ea/java.util.function.Predicate$$Lambda$1644/0x0000000800dd4a48.test(Unknown Source)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.Chunk.a(Chunk.java:950)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.World.getEntities(World.java:1156)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.collideNearby(EntityLiving.java:2976)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.movementTick(EntityLiving.java:2914)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityInsentient.movementTick(EntityInsentient.java:615)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityMonster.movementTick(EntityMonster.java:45)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityZombie.movementTick(EntityZombie.java:267)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.tick(EntityLiving.java:2591)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityInsentient.tick(EntityInsentient.java:378)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityZombie.tick(EntityZombie.java:237)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.entityJoinedWorld(WorldServer.java:959)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer$$Lambda$5337/0x0000000801b657a8.accept(Unknown Source)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.World.a(World.java:946)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.doTick(WorldServer.java:644)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1476)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:418)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1328)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1116)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:289)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3135/0x00000008011f6ca0.run(Unknown Source)
+[12:41:12] [Paper Watchdog Thread/ERROR]: 		java.base@15-ea/java.lang.Thread.run(Thread.java:832)
+[12:41:12] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:41:12] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[12:41:12] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:41:17] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-574 (MC: 1.16.5) ---
+[12:41:17] [Paper Watchdog Thread/ERROR]: The server has not responded for 25 seconds! Creating thread dump
+[12:41:17] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:41:17] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[12:41:17] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:41:17] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[12:41:17] [Paper Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: RUNNABLE
+[12:41:17] [Paper Watchdog Thread/ERROR]: 	Stack:
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.World.getType(World.java:736)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.ds(EntityLiving.java:1746)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.isClimbing(EntityLiving.java:1730)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.isCollidable(EntityLiving.java:3122)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.isCollidable(EntityLiving.java:3117)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.canCollideWith(EntityLiving.java:3129)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.IEntitySelector.lambda$pushable$8(IEntitySelector.java:64)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.IEntitySelector$$Lambda$5500/0x0000000801bc0b58.test(Unknown Source)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		java.base@15-ea/java.util.function.Predicate.lambda$and$0(Predicate.java:69)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		java.base@15-ea/java.util.function.Predicate$$Lambda$1644/0x0000000800dd4a48.test(Unknown Source)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.Chunk.a(Chunk.java:950)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.World.getEntities(World.java:1156)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.collideNearby(EntityLiving.java:2976)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.movementTick(EntityLiving.java:2914)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityInsentient.movementTick(EntityInsentient.java:615)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityMonster.movementTick(EntityMonster.java:45)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityZombie.movementTick(EntityZombie.java:267)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityLiving.tick(EntityLiving.java:2591)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityInsentient.tick(EntityInsentient.java:378)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.EntityZombie.tick(EntityZombie.java:237)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.entityJoinedWorld(WorldServer.java:959)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer$$Lambda$5337/0x0000000801b657a8.accept(Unknown Source)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.World.a(World.java:946)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.WorldServer.doTick(WorldServer.java:644)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1476)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:418)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1328)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1116)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:289)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		app//net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3135/0x00000008011f6ca0.run(Unknown Source)
+[12:41:17] [Paper Watchdog Thread/ERROR]: 		java.base@15-ea/java.lang.Thread.run(Thread.java:832)
+[12:41:17] [Paper Watchdog Thread/ERROR]: ------------------------------
+[12:41:17] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[12:41:17] [Paper Watchdog Thread/ERROR]: ------------------------------

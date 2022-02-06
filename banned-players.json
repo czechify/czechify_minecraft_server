@@ -1,10 +1,34 @@
 [
   {
+    "uuid": "a4fbdd4e-c90a-35fc-aefa-8df13480d404",
+    "name": "Polish_Gamer08",
+    "created": "2021-04-02 12:02:38 +0200",
+    "source": "MartinNaj",
+    "expires": "forever",
+    "reason": "Griefing everyone\u0027s houses"
+  },
+  {
+    "uuid": "3ea1a4ad-cbfc-3750-9406-5b58117b2ef4",
+    "name": "CINEK69",
+    "created": "2021-01-24 14:20:07 +0100",
+    "source": "MartinNaj",
+    "expires": "forever",
+    "reason": "Toxic, spamming shit in chat, etc."
+  },
+  {
     "uuid": "8178c28a-82e6-3a52-be03-f714245219a4",
     "name": "Krataman",
-    "created": "2021-01-09 22:20:59 +0000",
+    "created": "2021-01-09 23:20:59 +0100",
     "source": "Server",
     "expires": "forever",
     "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "d8eae87f-5fa3-3100-8aea-3e93e9f7b251",
+    "name": "PRO",
+    "created": "2021-01-23 22:38:28 +0100",
+    "source": "MartinNaj",
+    "expires": "forever",
+    "reason": "Mass griefing"
   }
 ]
