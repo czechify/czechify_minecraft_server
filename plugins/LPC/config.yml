@@ -1,0 +1,36 @@
+# LPC Configuration File
+#
+# Available Built-in Placeholders:
+#
+# (Main)
+# {world} => world name
+# {username} => player's display name
+# {message} => chat message
+#
+# (Ranks)
+# {prefix} => the highest priority prefix
+# {prefixes} => all prefixes sorted by the priority
+# {suffix} => the highest priority suffix
+# {suffixes} => all suffixes sorted by the priority
+#
+# (Colors Per Group)
+# {username-color} => username color for the specific group
+# {message-color} => message color for the specific group
+# {dummy-color} => dummy color for any use for the specific group
+# If you're having issues setting up this section,
+# read - https://github.com/lucko/LuckPerms/wiki/Prefixes,-Suffixes-&-Meta or
+# contact me through SpigotMC - https://www.spigotmc.org/conversations/add?to=morsik
+#
+# Need extra placeholders?
+# Install PlaceholderAPI and use varied placeholders in your chat format!
+#
+# You can use standard Minecraft Color Codes - https://minecraft.gamepedia.com/Formatting_codes
+# and (if MC version 1.16+) RGB colors using &#rrggbb or &x&r&r&g&g&b&b format!
+#
+# To reload this configuration file, run '/lpc reload' command
+# (make sure you have the 'lpc.reload' permission).
+#
+# Add 'lpc.chatcolors' permission to allow players to use color codes in their message.
+
+Chat_Format: "{prefixes}{username-color}{username}{suffixes} &8&l> &r{message}"
+
